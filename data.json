@@ -1,0 +1,1683 @@
+{
+  "appInfo": {
+    "name": "Bac PC - Révision Cours",
+    "version": "2.0.0",
+    "totalQuestions": 139,
+    "totalChapters": 10
+  },
+  "chapters": [
+    {
+      "name": "1. Acide-Base",
+      "questionCount": 17
+    },
+    {
+      "name": "2. Chimie analytique",
+      "questionCount": 21
+    },
+    {
+      "name": "3. Cinétique",
+      "questionCount": 7
+    },
+    {
+      "name": "4. Oxydoréduction",
+      "questionCount": 12
+    },
+    {
+      "name": "5. Électricité",
+      "questionCount": 7
+    },
+    {
+      "name": "6. Ondes et optique",
+      "questionCount": 15
+    },
+    {
+      "name": "7. Thermodynamique",
+      "questionCount": 15
+    },
+    {
+      "name": "8. Synthèse",
+      "questionCount": 15
+    },
+    {
+      "name": "9. Nucléaire",
+      "questionCount": 7
+    },
+    {
+      "name": "10. Mécanique",
+      "questionCount": 24
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Qu'est-ce qu'un groupe ester ?\nDonner sa formule et nommer la famille fonctionnelle associée.",
+      "question_latex": "Qu'est-ce qu'un groupe ester ?\nDonner sa formule et nommer la famille fonctionnelle associée.",
+      "answer": "Le groupe ester a pour formule –COO–.\nIl appartient à la famille des esters (enchaînement R–CO–O–R').",
+      "answer_latex": "Le groupe ester a pour formule –COO–.\nIl appartient à la famille des esters (enchaînement R–CO–O–R').",
+      "schema_present": true,
+      "schema_files": [
+        "image1.png"
+      ]
+    },
+    {
+      "id": 2,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Qu'indique une flèche courbe dans un mécanisme réactionnel ?",
+      "question_latex": "Qu'indique une flèche courbe dans un mécanisme réactionnel ?",
+      "answer": "Elle indique le mouvement d'un doublet d'électrons, du site donneur (nucléophile) vers le site accepteur (électrophile).",
+      "answer_latex": "Elle indique le mouvement d'un doublet d'électrons, du site donneur (nucléophile) vers le site accepteur (électrophile).",
+      "schema_present": true,
+      "schema_files": [
+        "image3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Définir un catalyseur.",
+      "question_latex": "Définir un catalyseur.",
+      "answer": "Espèce qui augmente la vitesse de réaction sans être consommée.",
+      "answer_latex": "Espèce qui augmente la vitesse de réaction sans être consommée.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 4,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Lors d'une extraction liquide-liquide, comment identifier les phases dans une ampoule à décanter ?",
+      "question_latex": "Lors d'une extraction liquide-liquide, comment identifier les phases dans une ampoule à décanter ?",
+      "answer": "La phase la plus dense est en bas.\nOn identifie par les masses volumiques.\nLe relargage (ajout d'eau salée) facilite la séparation.",
+      "answer_latex": "La phase la plus dense est en bas.\nOn identifie par les masses volumiques.\nLe relargage (ajout d'eau salée) facilite la séparation.",
+      "schema_present": true,
+      "schema_files": [
+        "image5.png"
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Comment augmenter le rendement d'une estérification ?",
+      "question_latex": "Comment augmenter le rendement d'une estérification ?",
+      "answer": "(1) Mettre un réactif en excès.\n(2) Éliminer un produit (ex : eau) au fur et à mesure.\nLe catalyseur n'augmente pas le rendement.",
+      "answer_latex": "(1) Mettre un réactif en excès.\n(2) Éliminer un produit (ex : eau) au fur et à mesure.\nLe catalyseur n'augmente pas le rendement.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 6,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Verrerie et relation pour préparer une dilution ?",
+      "question_latex": "Verrerie et relation pour préparer une dilution ?",
+      "answer": "On calcule F = Cmère/Cfille et on utilise F = Vfiole/Vprélevé.\nPipette jaugée pour prélever Vprélevé, fiole jaugée de volume Vfiole.\nRelation : Cmère.Vprélevé = Cfille.Vfiole.",
+      "answer_latex": "On calcule F = Cmère/Cfille et on utilise F = Vfiole/Vprélevé.\nPipette jaugée pour prélever Vprélevé, fiole jaugée de volume Vfiole.\nRelation : Cmère.Vprélevé = Cfille.Vfiole.",
+      "schema_present": true,
+      "schema_files": [
+        "image7.png"
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "À quelle longueur d'onde régler le spectrophotomètre pour un dosage ? Justifier.",
+      "question_latex": "À quelle longueur d'onde régler le spectrophotomètre pour un dosage ? Justifier.",
+      "answer": "À λmax (maximum d'absorption) : sensibilité maximale, une petite variation de concentration donne une grande variation d'absorbance.",
+      "answer_latex": "À λmax (maximum d'absorption) : sensibilité maximale, une petite variation de concentration donne une grande variation d'absorbance.",
+      "schema_present": true,
+      "schema_files": [
+        "image9.png"
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Énoncer la loi de Beer-Lambert. Vérification graphique ?",
+      "question_latex": "Énoncer la loi de Beer-Lambert. Vérification graphique ?",
+      "answer": "A = εlc\nLa courbe A = f(c) est une droite passant par l'origine (proportionnalité).",
+      "answer_latex": "A = εlc\nLa courbe A = f(c) est une droite passant par l'origine (proportionnalité).",
+      "schema_present": true,
+      "schema_files": [
+        "image11.png"
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Définir les vecteurs du repère de Frenet pour un mouvement curviligne.",
+      "question_latex": "Définir les vecteurs du repère de Frenet pour un mouvement curviligne.",
+      "answer": "vec(u)_T : tangent, dans le sens du mouvement.\nvec(u)_N: perpendiculaire à vec(u)_T, vers le centre de courbure.",
+      "answer_latex": "$\\vec{u}_{T}$ : tangent, dans le sens du mouvement.\n$\\vec{u}_{N}$: perpendiculaire à $\\vec{u}_{T}$, vers le centre de courbure.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 10,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Dans un mouvement circulaire uniforme (rayon r, vitesse v),\nmontrer que vec(a) = (v²/r) vec(u)_N.",
+      "question_latex": "Dans un mouvement circulaire uniforme (rayon r, vitesse v),\nmontrer que $\\vec{a}$ = (v²/r) $\\vec{u}_{N}$.",
+      "answer": "Frenet : vec(a) = (dv/dt) vec(u)_T + (v²/r) vec(u)_N\nUniforme ⇒ v constant ⇒ dv/dt = 0\n⇒ vec(a) = (v²/r)vec(u)_N\n(centripète car dirigée vers le centre).",
+      "answer_latex": "Frenet : $\\vec{a}$ = (dv/dt) $\\vec{u}_{T}$ + (v²/r) $\\vec{u}_{N}$\nUniforme ⇒ v constant ⇒ dv/dt = 0\n⇒ $\\vec{a}$ = (v²/r)$\\vec{u}_{N}$\n(centripète car dirigée vers le centre).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 11,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Direction de la résultante des forces dans un mouvement circulaire uniforme ?",
+      "question_latex": "Direction de la résultante des forces dans un mouvement circulaire uniforme ?",
+      "answer": "Σvec(F)= mvec(a)  = m(v²/r)  vec(u)_N\ndirigée vers le centre (centripète).\nComposante tangentielle nulle.",
+      "answer_latex": "$\\sum \\vec{F}$= m$\\vec{a}$  = m(v²/r)  $\\vec{u}_{N}$\ndirigée vers le centre (centripète).\nComposante tangentielle nulle.",
+      "schema_present": true,
+      "schema_files": [
+        "image13.png"
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Forces sur un objet flottant en équilibre ? Expressions ?",
+      "question_latex": "Forces sur un objet flottant en équilibre ? Expressions ?",
+      "answer": "Poids vec(P) = mvec(g)\nPoussée d'Archimède vec(P)_A = ρfluide.Vimmergé.vec(g)\nÉquilibre : vec(P) = vec(-P)_A",
+      "answer_latex": "Poids $\\vec{P}$ = m$\\vec{g}$\nPoussée d'Archimède $\\vec{P}_{A}$ = $\\rho_{\\text{fluide}}$ . $V_{\\text{immergé}}$ . $\\vec{g}$\nÉquilibre : $\\vec{P}$ = $-\\vec{P}_{A}$",
+      "schema_present": true,
+      "schema_files": [
+        "image15.png"
+      ]
+    },
+    {
+      "id": 13,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Établir Vimmergé = m / ρfluide pour un objet flottant.",
+      "question_latex": "Établir $V_{\\text{immergé}}$ = m / $\\rho_{\\text{fluide}}$ pour un objet flottant.",
+      "answer": "P = PA\nm.g = ρ.Vimmergé.g ⇒ m = ρ.Vimmergé ⇒ Vimmergé = m/ρ",
+      "answer_latex": "P = $P_{A}$\nm.g = ρ . $V_{\\text{immergé}}$ . g ⇒ m = ρ . $V_{\\text{immergé}}$ ⇒ $V_{\\text{immergé}}$ = m/ρ",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 14,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Expression du débit volumique DV ?\nVérification dimensionnelle ?",
+      "question_latex": "Expression du débit volumique DV ?\nVérification dimensionnelle ?",
+      "answer": "DV = S.v\n[m²× m·s⁻¹] = m³·s⁻¹",
+      "answer_latex": "DV = S.v\n[m2× m·s⁻¹] = m3·s⁻¹",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 15,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Établir vB = (SA/SB).vA pour un fluide incompressible.",
+      "question_latex": "Établir $v_B$ = ($S_A$/$S_B$).$v_A$ pour un fluide incompressible.",
+      "answer": "Conservation : SA.vA = SB.vB ⇒ vB = (SA/SB).vA\nSi SB < SA ⇒ vB > vA",
+      "answer_latex": "Conservation : $S_A$.$v_A$ = $S_B$.$v_B$ ⇒ $v_B$ = ($S_A$/$S_B$).$v_A$\nSi $S_B$ < $S_A$ ⇒ $v_B$ > $v_A$",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 16,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Décrire l'effet Venturi.",
+      "question_latex": "Décrire l'effet Venturi.",
+      "answer": "Dans un rétrécissement : vitesse augmente (conservation du débit), pression diminue (Bernoulli).",
+      "answer_latex": "Dans un rétrécissement : vitesse augmente (conservation du débit), pression diminue (Bernoulli).",
+      "schema_present": true,
+      "schema_files": [
+        "image17.png"
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Établir Δp = pB − pA dans une conduite horizontale (Bernoulli).",
+      "question_latex": "Établir Δp = pB − pA dans une conduite horizontale (Bernoulli).",
+      "answer": "pA + 1/2ρvA² = pB + 1/2ρvB²  ⇒  Δp = 1/2 ρ(vA² − vB²)\nvB > vA ⇒ Δp < 0",
+      "answer_latex": "pA + 1/2ρvA² = pB + 1/2ρvB²  ⇒  Δp = 1/2 ρ(vA² − vB²)\nvB > vA ⇒ Δp < 0",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 18,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Que signifie le suffixe « -ol » en nomenclature ?",
+      "question_latex": "Que signifie le suffixe « -ol » en nomenclature ?",
+      "answer": "Présence d'un groupe hydroxyle –OH → famille des alcools.",
+      "answer_latex": "Présence d'un groupe hydroxyle –OH → famille des alcools.",
+      "schema_present": true,
+      "schema_files": [
+        "image19.png"
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Comment construire un diagramme de prédominance pour ces deux couples :\nH2A/HA- (pKA1) et HA-/A2- (pKA2) ?",
+      "question_latex": "Comment construire un diagramme de prédominance pour ces deux couples :\nH2A/HA- (pKA1) et HA-/A2- (pKA2) ?",
+      "answer": "Placer les pKA sur l'axe pH.\npH < pKA1 : H2A prédomine.\npKA1 < pH < pKA2 : HA- prédomine.\npH > pKA2 : A2- prédomine.",
+      "answer_latex": "Placer les pKA sur l'axe pH.\npH < pKA1 : H2A prédomine.\npKA1 < pH < pKA2 : HA- prédomine.\npH > pKA2 : A2- prédomine.",
+      "schema_present": true,
+      "schema_files": [
+        "image21.png"
+      ]
+    },
+    {
+      "id": 20,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Qualités de la réaction support d'un titrage ?",
+      "question_latex": "Qualités de la réaction support d'un titrage ?",
+      "answer": "Rapide, unique, totale.",
+      "answer_latex": "Rapide, unique, totale.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 21,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Pourquoi dégazer une boisson gazeuse avant titrage acido-basique ?",
+      "question_latex": "Pourquoi dégazer une boisson gazeuse avant titrage acido-basique ?",
+      "answer": "Le CO2 dissous (couple CO2, H2O/HCO3-) réagirait avec le réactif titrant, faussant le dosage.",
+      "answer_latex": "Le CO2 dissous (couple CO2, H2O/HCO3-) réagirait avec le réactif titrant, faussant le dosage.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 22,
+      "chapter": "9. Nucléaire",
+      "theme": "9. Nucléaire",
+      "question": "Composition d'un noyau ^A_ZX  ?",
+      "question_latex": "Composition d'un noyau $^{A}_{Z}X$  ?",
+      "answer": "Z protons, (A−Z) neutrons.\nZ = numéro atomique.\nA = nombre de masse (nombre de nucléons).",
+      "answer_latex": "Z protons, (A−Z) neutrons.\nZ = numéro atomique.\nA = nombre de masse (nombre de nucléons).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 23,
+      "chapter": "9. Nucléaire",
+      "theme": "9. Nucléaire",
+      "question": "Définir des noyaux isotopes.",
+      "question_latex": "Définir des noyaux isotopes.",
+      "answer": "Même Z (même élément), A différent (neutrons différents).\nEx : ^235_92U et ^238_92U.",
+      "answer_latex": "Même Z (même élément), A différent (neutrons différents).\nEx : $^{235}_{92}U$ et $^{238}_{92}U$.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 24,
+      "chapter": "9. Nucléaire",
+      "theme": "9. Nucléaire",
+      "question": "Pourquoi certains noyaux existent encore naturellement ?",
+      "question_latex": "Pourquoi certains noyaux existent encore naturellement ?",
+      "answer": "Si t1/2 ≈ ou > âge de la Terre (~4,5.10⁹ ans) ⇒ le noyau existe encore.\nSi t1/2 << âge de la Terre ⇒ quasi-totalité désintégrée.",
+      "answer_latex": "Si t1/2 ≈ ou > âge de la Terre (~4,5.109 ans) ⇒ le noyau existe encore.\nSi t1/2 << âge de la Terre ⇒ quasi-totalité désintégrée.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 25,
+      "chapter": "9. Nucléaire",
+      "theme": "9. Nucléaire",
+      "question": "Qu'est-ce qu'une réaction en chaîne (fission) ?",
+      "question_latex": "Qu'est-ce qu'une réaction en chaîne (fission) ?",
+      "answer": "Réaction auto-entretenue : la fission de ^235_92U libère des neutrons qui provoquent d'autres fissions à leur tour.",
+      "answer_latex": "Réaction auto-entretenue : la fission de $^{235}_{92}U$ libère des neutrons qui provoquent d'autres fissions à leur tour.",
+      "schema_present": true,
+      "schema_files": [
+        "image23.png"
+      ]
+    },
+    {
+      "id": 26,
+      "chapter": "9. Nucléaire",
+      "theme": "9. Nucléaire",
+      "question": "Décrire la désintégration β⁻ et écrire l'équation générale.",
+      "question_latex": "Décrire la désintégration β- et écrire l'équation générale.",
+      "answer": "La désintégration β⁻ est une transformation nucléaire spontanée au cours de laquelle un neutron du noyau se transforme en proton, avec émission d'un électron (particule β⁻) et d'un antineutrino.\nNeutron → proton + e- + ν̄.\n^A_ZX  → ^A_Z+1Y  + ^0_-1e .\nLois de conservation :\nA constant, Z augmente de 1.",
+      "answer_latex": "La désintégration β- est une transformation nucléaire spontanée au cours de laquelle un neutron du noyau se transforme en proton, avec émission d'un électron (particule β-) et d'un antineutrino.\nNeutron → proton + e- + ν̄.\n$^{A}_{Z}X$  → $^{A}_{Z+1}Y$  + $^{0}_{-1}e$ .\nLois de conservation :\nA constant, Z augmente de 1.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 27,
+      "chapter": "9. Nucléaire",
+      "theme": "9. Nucléaire",
+      "question": "Établir λ = ln(2)/t1/2 à partir de N(t) = N0e-λt.",
+      "question_latex": "Établir $\\lambda = \\ln(2)/t_{1/2}$ à partir de $N(t) = N_0 e^{-\\lambda t}$.",
+      "answer": "À t = t1/2 : N(t1/2) = N0/2.\nN0/2 = N0·e^(−λ·t1/2)\n1/2 = e^(−λ·t1/2) (on simplifie par N0)\nln(1/2) = −λ·t1/2 (on passe au ln)\n−ln(2) = −λ·t1/2 (car ln(1/2) = −ln(2))\nλ = ln(2) / t1/2",
+      "answer_latex": "À $t = t_{1/2}$ : $N(t_{1/2}) = N_0/2$.\n$N_0/2 = N_0 e^{-\\lambda t_{1/2}}$\n$1/2 = e^{-\\lambda t_{1/2}}$ (on simplifie par $N_0$)\n$\\ln(1/2) = -\\lambda t_{1/2}$ (on passe au ln)\n$-\\ln(2) = -\\lambda t_{1/2}$ (car $\\ln(1/2) = -\\ln(2)$)\n$\\lambda = \\ln(2) / t_{1/2}$",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 30,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Établir L = 2λD/a (largeur fente vs tache centrale).",
+      "question_latex": "Établir L = 2λD/a (largeur fente vs tache centrale).",
+      "answer": "Pour les petits angles : θ ≈ λ/a.\nOr, sur l’écran, tan θ ≈ θ ≈ (L/2)/D.\nDonc : L/(2D) ≈ λ/a, d’où\nL ≈ 2λD/a",
+      "answer_latex": "Pour les petits angles : θ ≈ λ/a.\nOr, sur l’écran, tan θ ≈ θ ≈ (L/2)/D.\nDonc : L/(2D) ≈ λ/a, d’où\nL ≈ 2λD/a",
+      "schema_present": true,
+      "schema_files": [
+        "image25.png"
+      ]
+    },
+    {
+      "id": 32,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Interpréter σ = f(V) en titrage conductimétrique.\nTrouver Véq ?",
+      "question_latex": "Interpréter σ = f(V) en titrage conductimétrique.\nTrouver Véq ?",
+      "answer": "σ dépend de λ.\nAvant équivalence : σ évolue selon bilan ionique.\nAprès : titrant en excès, σ augmente. Véq = changement de pente.",
+      "answer_latex": "σ dépend de λ.\nAvant équivalence : σ évolue selon bilan ionique.\nAprès : titrant en excès, σ augmente. Véq = changement de pente.",
+      "schema_present": true,
+      "schema_files": [
+        "image27.png"
+      ]
+    },
+    {
+      "id": 33,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Définir des isomères de constitution.",
+      "question_latex": "Définir des isomères de constitution.",
+      "answer": "Même formule brute, mais formules semi-développées différentes (enchaînement différent des atomes).",
+      "answer_latex": "Même formule brute, mais formules semi-développées différentes (enchaînement différent des atomes).",
+      "schema_present": true,
+      "schema_files": [
+        "image29.png"
+      ]
+    },
+    {
+      "id": 34,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Avantages du chauffage à reflux ?",
+      "question_latex": "Avantages du chauffage à reflux ?",
+      "answer": "1) Accélère la réaction (T = facteur cinétique).\n2) Évite pertes de matière (vapeurs condensées retombent).",
+      "answer_latex": "1) Accélère la réaction (T = facteur cinétique).\n2) Évite pertes de matière (vapeurs condensées retombent).",
+      "schema_present": true,
+      "schema_files": [
+        "image31.png"
+      ]
+    },
+    {
+      "id": 35,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Définir Qr.\nPrévoir le sens d'évolution (en comparant Qr,i et K) ?",
+      "question_latex": "Définir Qr.\nPrévoir le sens d'évolution (en comparant Qr,i et K) ?",
+      "answer": "Qr = [produits]a / [réactifs]b.\nQr,i < K : sens direct.\nQr,i > K : sens inverse.\nQr,i = K : équilibre.",
+      "answer_latex": "Qr = [produits]a / [réactifs]b.\nQr,i < K : sens direct.\nQr,i > K : sens inverse.\nQr,i = K : équilibre.",
+      "schema_present": true,
+      "schema_files": [
+        "image33.png"
+      ]
+    },
+    {
+      "id": 36,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Définir un ampholyte.",
+      "question_latex": "Définir un ampholyte.",
+      "answer": "Espèce chimique capable de se comporter à la fois comme un acide et comme une base.\nHCO3- :\nacide H2CO3/HCO3- → H2CO3 = HCO3- + H+ ;\nbase HCO3-/CO32- → HCO3- = CO32- + H+.\nH2O :\nacide H3O+/H2O → H3O+ = H2O + H+ ;\nbase H2O/HO- → H2O = HO- + H+.",
+      "answer_latex": "Espèce chimique capable de se comporter à la fois comme un acide et comme une base.\nHCO3- :\nacide H2CO3/HCO3- → H2CO3 = HCO3- + H+ ;\nbase HCO3-/CO32- → HCO3- = CO32- + H+.\nH2O :\nacide H3O+/H2O → H3O+ = H2O + H+ ;\nbase H2O/HO- → H2O = HO- + H+.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 37,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Définir l'équivalence d'un titrage.",
+      "question_latex": "Définir l'équivalence d'un titrage.",
+      "answer": "Réactifs en proportions stœchiométriques.\nChangement de réactif limitant à l'équivalence.",
+      "answer_latex": "Réactifs en proportions stœchiométriques.\nChangement de réactif limitant à l'équivalence.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 38,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Décrire l'effet Doppler. Application radar ?",
+      "question_latex": "Décrire l'effet Doppler. Application radar ?",
+      "answer": "Décalage en fréquence dû au mouvement relatif source/récepteur.\nApproche : fr > fe (fréquence reçue augmente).\nÉloignement : fr < fe (fréquence reçue diminue).\nRadar : |Δf| = 2v/c.fe → v = |Δf|.c / (2fe).",
+      "answer_latex": "Décalage en fréquence dû au mouvement relatif source/récepteur.\nApproche : fr > fe (fréquence reçue augmente).\nÉloignement : fr < fe (fréquence reçue diminue).\nRadar : |Δf| = 2v/c.fe → v = |Δf|.c / (2fe).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 39,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Établir x(t) et y(t) pour un projectile (v0, angle α, hauteur h).",
+      "question_latex": "Établir x(t) et y(t) pour un projectile ($v_0$, angle α, hauteur h).",
+      "answer": "Newton (poids seul) : ax = 0, ay = −g.\nIntégrer : vx = v0cosα, vy = −gt + v0sinα.\nIntégrer : x = v0cosα t, y = −1/2gt² + v0sinα t + h.",
+      "answer_latex": "Newton (poids seul) : $a_x = 0$, $a_y = -g$.\nIntégrer : $v_x = v_0 \\cos\\alpha$, $v_y = -gt + v_0 \\sin\\alpha$.\nIntégrer : $x = v_0 \\cos\\alpha \\cdot t$, $y = -\\frac{1}{2}gt^2 + v_0 \\sin\\alpha \\cdot t + h$.",
+      "schema_present": true,
+      "schema_files": [
+        "image35.png"
+      ]
+    },
+    {
+      "id": 40,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Établir y(x) à partir des équations horaires d'un projectile.",
+      "question_latex": "Établir y(x) à partir des équations horaires d'un projectile.",
+      "answer": "Équations horaires : x(t) = v0cosαt et y = −1/2gt² + v0sinα t + h.\nOn isole t = x/(v0cosα) et on injecte dans y :\ny = −gx²/(2v0²cos²α) + xtanα + h.\nC'est une parabole.",
+      "answer_latex": "Équations horaires : $x(t) = v_0 \\cos\\alpha \\cdot t$ et $y = -\\frac{1}{2}gt^2 + v_0 \\sin\\alpha \\cdot t + h$.\nOn isole $t = \\frac{x}{v_0 \\cos\\alpha}$ et on injecte dans y :\n$y = -\\frac{gx^2}{2v_0^2 \\cos^2\\alpha} + x\\tan\\alpha + h$.\nC'est une parabole.",
+      "schema_present": true,
+      "schema_files": [
+        "image35.png"
+      ]
+    },
+    {
+      "id": 41,
+      "chapter": "5. Électricité",
+      "theme": "5. Électricité",
+      "question": "Relation i(t) et uC(t) pour un condensateur de capacité C ?",
+      "question_latex": "Relation i(t) et uC(t) pour un condensateur de capacité C ?",
+      "answer": "i(t) = C.duC/dt.",
+      "answer_latex": "i(t) = C.duC/dt.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 43,
+      "chapter": "5. Électricité",
+      "theme": "5. Électricité",
+      "question": "Donner τ d'un circuit RC. Vérifier dimensionnellement.",
+      "question_latex": "Donner τ d'un circuit RC. Vérifier dimensionnellement.",
+      "answer": "τ = RC.\n[Ω F] = (V/A)(As/V) = s.",
+      "answer_latex": "τ = RC.\n[Ω F] = (V/A)(As/V) = s.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 44,
+      "chapter": "5. Électricité",
+      "theme": "5. Électricité",
+      "question": "Établir l'équation différentielle du circuit RC série soumis à une tension E.",
+      "question_latex": "Établir l'équation différentielle du circuit RC série soumis à une tension E.",
+      "answer": "Maille : E = uR + uC = Ri + uC.\nOr q = CuC, donc i = dq/dt = CduC/dt.\nOn remplace i dans la maille : E = RCduC/dt + uC\nOn pose τ = RC : E = τduC/dt + uC\nOn divise par τ : duC/dt + uC/τ = E/τ",
+      "answer_latex": "Maille : E = uR + uC = Ri + uC.\nOr q = CuC, donc i = dq/dt = CduC/dt.\nOn remplace i dans la maille : E = RCduC/dt + uC\nOn pose τ = RC : E = τduC/dt + uC\nOn divise par τ : duC/dt + uC/τ = E/τ",
+      "schema_present": true,
+      "schema_files": [
+        "image37.png"
+      ]
+    },
+    {
+      "id": 45,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Qu'est-ce qu'un intermédiaire réactionnel dans un mécanisme réactionnel ?",
+      "question_latex": "Qu'est-ce qu'un intermédiaire réactionnel dans un mécanisme réactionnel ?",
+      "answer": "Un intermédiaire réactionnel est une espèce chimique formée au cours d'une étape du mécanisme puis consommée dans une étape ultérieure.\nIl n'apparaît ni dans les réactifs ni dans les produits de l'équation bilan globale.",
+      "answer_latex": "Un intermédiaire réactionnel est une espèce chimique formée au cours d'une étape du mécanisme puis consommée dans une étape ultérieure.\nIl n'apparaît ni dans les réactifs ni dans les produits de l'équation bilan globale.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 46,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Donner la relation entre longueur d'onde λ, célérité c et fréquence f. Comment déterminer le domaine spectral d'une onde EM ?",
+      "question_latex": "Donner la relation entre longueur d'onde λ, célérité c et fréquence f. Comment déterminer le domaine spectral d'une onde EM ?",
+      "answer": "λ = c/f (avec c = 3,00.108 m·s⁻¹ dans le vide).\nOn calcule λ puis on situe dans le spectre électromagnétique.",
+      "answer_latex": "λ = c/f (avec c = 3,00.108 m·s⁻¹ dans le vide).\nOn calcule λ puis on situe dans le spectre électromagnétique.",
+      "schema_present": true,
+      "schema_files": [
+        "image39.png"
+      ]
+    },
+    {
+      "id": 47,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Comment identifier quelle réaction (oxydation ou réduction) a lieu à chaque électrode d'une pile ?",
+      "question_latex": "Comment identifier quelle réaction (oxydation ou réduction) a lieu à chaque électrode d'une pile ?",
+      "answer": "L'oxydation (perte d'e-) a lieu à l'anode (pôle −).\nLa réduction (gain d'e-) a lieu à la cathode (pôle +).\nOn identifie en regardant les demi-équations :\ncelle qui libère des e- → anode ;\ncelle qui capte des e- → cathode.",
+      "answer_latex": "L'oxydation (perte d'e-) a lieu à l'anode (pôle −).\nLa réduction (gain d'e-) a lieu à la cathode (pôle +).\nOn identifie en regardant les demi-équations :\ncelle qui libère des e- → anode ;\ncelle qui capte des e- → cathode.",
+      "schema_present": true,
+      "schema_files": [
+        "image41.png"
+      ]
+    },
+    {
+      "id": 48,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Donner l'expression vectorielle de la force de gravitation exercée par un corps A (masse MA) sur un corps B (masse MB) séparés d'une distance d\nExprimer cette force dans le repère de Frenet pour un mouvement circulaire.",
+      "question_latex": "Donner l'expression vectorielle de la force de gravitation exercée par un corps A (masse $M_A$) sur un corps B (masse $M_B$) séparés d'une distance d\nExprimer cette force dans le repère de Frenet pour un mouvement circulaire.",
+      "answer": "La force gravitationnelle est :\nvec(F)_AB= −(GMAMB / d²) vec(u)_AB, dirigée de B vers A (attractive).\nDans le repère de Frenet pour un satellite en orbite circulaire autour de A (d = R+h) :\nF⃗ = (GMAMB / d²)vec(u)_N car vec(u)_N  pointe vers le centre de courbure (vers A) à l’opposé de vec(u)_AB.\nG = 6,67. 10-11 m³·kg-1s-2.",
+      "answer_latex": "La force gravitationnelle est :\n$\\vec{F}_{AB} = -\\frac{G \\cdot M_A \\cdot M_B}{d^2} \\cdot \\vec{u}_{AB}$\ndirigée de B vers A (attractive).\nDans le repère de Frenet pour un satellite en orbite circulaire autour de A (d = R+h) :\n$\\vec{F} = \\frac{G \\cdot M_A \\cdot M_B}{(R+h)^2} \\cdot \\vec{u}_N$\ncar $\\vec{u}_N$ pointe vers le centre de courbure (vers A) à l’opposé de $\\vec{u}_{AB}$.\nG = 6,67·10⁻¹¹ m³·kg⁻¹·s⁻².",
+      "schema_present": true,
+      "schema_files": [
+        "image43.png"
+      ]
+    },
+    {
+      "id": 49,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Donner la relation entre la charge électrique Q échangée et la quantité de matière d'électrons n(e-). En déduire l'expression avec la constante de Faraday F.",
+      "question_latex": "Donner la relation entre la charge électrique Q échangée et la quantité de matière d'électrons n(e-). En déduire l'expression avec la constante de Faraday F.",
+      "answer": "Q = n(e-)NAe, avec NA la constante d'Avogadro et e la charge élémentaire (1,60.10-19 C).\nOn définit la constante de Faraday F = NAe ≈ 96 500 C·mol⁻¹. Donc Q = n(e-)F.\nCette relation permet de relier la charge totale transférée dans un circuit à la quantité de matière d'électrons échangés lors d'une réaction électrochimique.",
+      "answer_latex": "Q = n(e-)NAe, avec NA la constante d'Avogadro et e la charge élémentaire (1,60.10-19 C).\nOn définit la constante de Faraday F = NAe ≈ 96 500 C·mol⁻¹. Donc Q = n(e-)F.\nCette relation permet de relier la charge totale transférée dans un circuit à la quantité de matière d'électrons échangés lors d'une réaction électrochimique.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 50,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Donner l'expression de la constante d'acidité KA d'un couple acide/base AH(aq)/A-(aq).\nDéfinir le pKA.",
+      "question_latex": "Donner l'expression de la constante d'acidité $K_A$ d'un couple acide/base $AH_{(aq)}/A^-_{(aq)}$.\nDéfinir le $pK_A$.",
+      "answer": "KA = ([A-][H3 O+]) / ([AH]c°), avec c° = 1 mol· L-1 la concentration standard.\nLe pKA est défini par pKA = −log(KA).\nPlus KA est grand (pKA petit), plus l'acide est fort.",
+      "answer_latex": "$K_A$ = ($[A^-][H_3O^+]$) / ($[AH]c°$), avec c° = 1 mol·L⁻¹ la concentration standard.\nLe $pK_A$ est défini par $pK_A = -\\log(K_A)$.\nPlus $K_A$ est grand ($pK_A$ petit), plus l'acide est fort.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 51,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "À partir de l'expression de KA d'un couple AH/A-, établir la relation pH = pKA + log([A-]/[AH]).",
+      "question_latex": "À partir de l'expression de $K_A$ d'un couple $AH/A^-$, établir la relation $pH = pK_A + \\log([A^-]/[AH])$.",
+      "answer": "On part de KA = [A-][H3 O+] / ([AH]c°).\nOn isole [H3 O+] : [H3 O+] = KA[AH]c° / [A-].\nOn passe au −log : −log([H3 O+]/c°) = −log(KA) − log([AH]/[A-]).\nDonc pH = pKA + log([A-]/[AH]).",
+      "answer_latex": "On part de $K_A = \\frac{[A^-][H_3O^+]}{[AH]c°}$.\nOn isole $[H_3O^+]$ : $[H_3O^+] = \\frac{K_A[AH]c°}{[A^-]}$.\nOn passe au −log : $-\\log([H_3O^+]/c°) = -\\log(K_A) - \\log([AH]/[A^-])$.\nDonc $pH = pK_A + \\log([A^-]/[AH])$.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 52,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Comment interpréter un chromatogramme obtenu par CCM pour savoir si une transformation a eu lieu et si le produit brut est pur ?",
+      "question_latex": "Comment interpréter un chromatogramme obtenu par CCM pour savoir si une transformation a eu lieu et si le produit brut est pur ?",
+      "answer": "Sur un chromatogramme CCM, chaque tache correspond à une espèce chimique.\nUne transformation a eu lieu si le dépôt du produit brut présente des taches à des hauteurs (rapports frontaux Rf) différentes de celles des réactifs.\nLe produit brut est pur s'il ne présente qu'une seule tache ; s'il en présente plusieurs, il contient des impuretés (réactifs restants ou sous-produits).",
+      "answer_latex": "Sur un chromatogramme CCM, chaque tache correspond à une espèce chimique.\nUne transformation a eu lieu si le dépôt du produit brut présente des taches à des hauteurs (rapports frontaux Rf) différentes de celles des réactifs.\nLe produit brut est pur s'il ne présente qu'une seule tache ; s'il en présente plusieurs, il contient des impuretés (réactifs restants ou sous-produits).",
+      "schema_present": true,
+      "schema_files": [
+        "image45.png"
+      ]
+    },
+    {
+      "id": 54,
+      "chapter": "9. Nucléaire",
+      "theme": "9. Nucléaire",
+      "question": "Vérifier que N(t) = N0e-λt est solution de l'équation différentielle dN/dt = −λN(t) modélisant la décroissance radioactive.",
+      "question_latex": "Vérifier que $N(t) = N_0 e^{-\\lambda t}$ est solution de l'équation différentielle $dN/dt = -\\lambda N(t)$ modélisant la décroissance radioactive.",
+      "answer": "On pose N(t) = N0·e^(−λt).\nOn dérive :\ndN/dt = N0·(−λ)·e^(−λt)\n= −λ·N0·e^(−λt)\n= −λ·N(t).\nL'équation différentielle est bien vérifiée.\nDe plus, à t = 0 :\nN(0) = N0·e⁰\n= N0 (condition initiale vérifiée).\nDonc N(t) = N0·e^(−λt) est la solution unique de l'équation de décroissance radioactive.",
+      "answer_latex": "On pose $N(t) = N_0 e^{-\\lambda t}$.\nOn dérive :\n$dN/dt = N_0(-\\lambda)e^{-\\lambda t}$\n$= -\\lambda N_0 e^{-\\lambda t}$\n$= -\\lambda N(t)$.\nL'équation différentielle est bien vérifiée.\nDe plus, à t = 0 :\n$N(0) = N_0 e^0 = N_0$ (condition initiale vérifiée).\nDonc $N(t) = N_0 e^{-\\lambda t}$ est la solution unique de l'équation de décroissance radioactive.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 55,
+      "chapter": "5. Électricité",
+      "theme": "5. Électricité",
+      "question": "Donner l'expression de la capacité C d'un condensateur plan en fonction de ses caractéristiques géométriques. Comment varie C si l'on augmente la surface des armatures ou l'épaisseur du diélectrique (diélectrique = isolant) ?",
+      "question_latex": "Donner l'expression de la capacité C d'un condensateur plan en fonction de ses caractéristiques géométriques. Comment varie C si l'on augmente la surface des armatures ou l'épaisseur du diélectrique (diélectrique = isolant) ?",
+      "answer": "C = εS/e, avec ε la permittivité du diélectrique (en F· m-1), S la surface des armatures (m²) et e la distance entre les armatures (m).\nC augmente si S augmente (proportionnalité) et diminue si e augmente (inversement proportionnel).",
+      "answer_latex": "C = εS/e, avec ε la permittivité du diélectrique (en F· m-1), S la surface des armatures (m2) et e la distance entre les armatures (m).\nC augmente si S augmente (proportionnalité) et diminue si e augmente (inversement proportionnel).",
+      "schema_present": true,
+      "schema_files": [
+        "image47.png"
+      ]
+    },
+    {
+      "id": 56,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Dans quel sens s'effectue un transfert thermique entre deux corps à des températures différentes ?",
+      "question_latex": "Dans quel sens s'effectue un transfert thermique entre deux corps à des températures différentes ?",
+      "answer": "Un transfert thermique s'effectue spontanément du corps le plus chaud vers le corps le plus froid, c'est-à-dire dans le sens des températures décroissantes.\nLe transfert cesse lorsque l'équilibre thermique est atteint (les deux corps à la même température).",
+      "answer_latex": "Un transfert thermique s'effectue spontanément du corps le plus chaud vers le corps le plus froid, c'est-à-dire dans le sens des températures décroissantes.\nLe transfert cesse lorsque l'équilibre thermique est atteint (les deux corps à la même température).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 57,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Quelle est la différence entre une pile et une électrolyse du point de vue de la spontanéité de la transformation ?",
+      "question_latex": "Quelle est la différence entre une pile et une électrolyse du point de vue de la spontanéité de la transformation ?",
+      "answer": "Dans une pile, la transformation d'oxydoréduction est spontanée : elle se produit naturellement et fournit de l'énergie électrique. Dans une électrolyse, la transformation est forcée (non spontanée) : on impose un courant à l'aide d'un générateur extérieur pour forcer la réaction dans le sens inverse de celui qui serait spontané.\nL'électrolyse consomme de l'énergie électrique.",
+      "answer_latex": "Dans une pile, la transformation d'oxydoréduction est spontanée : elle se produit naturellement et fournit de l'énergie électrique. Dans une électrolyse, la transformation est forcée (non spontanée) : on impose un courant à l'aide d'un générateur extérieur pour forcer la réaction dans le sens inverse de celui qui serait spontané.\nL'électrolyse consomme de l'énergie électrique.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 58,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Sur un schéma d'électrolyse, comment identifier les bornes du générateur, le sens de circulation des électrons et des ions ?",
+      "question_latex": "Sur un schéma d'électrolyse, comment identifier les bornes du générateur, le sens de circulation des électrons et des ions ?",
+      "answer": "Les électrons sortent de la borne − du générateur, traversent le circuit extérieur et entrent par la borne +.\nL'anode (siège de l'oxydation) est reliée à la borne + du générateur ; la cathode (siège de la réduction) est reliée à la borne −.\nDans la solution, les cations migrent vers la cathode (−) et les anions migrent vers l'anode (+).\nLe courant conventionnel circule en sens inverse des électrons.",
+      "answer_latex": "Les électrons sortent de la borne − du générateur, traversent le circuit extérieur et entrent par la borne +.\nL'anode (siège de l'oxydation) est reliée à la borne + du générateur ; la cathode (siège de la réduction) est reliée à la borne −.\nDans la solution, les cations migrent vers la cathode (−) et les anions migrent vers l'anode (+).\nLe courant conventionnel circule en sens inverse des électrons.",
+      "schema_present": true,
+      "schema_files": [
+        "image49.png"
+      ]
+    },
+    {
+      "id": 180,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Qu’appelle-t-on le motif d’un polymère ?",
+      "question_latex": "Qu’appelle-t-on le motif d’un polymère ?",
+      "answer": "Le motif est la plus petite unité structurale qui se répète le long de la chaîne polymère",
+      "answer_latex": "Le motif est la plus petite unité structurale qui se répète le long de la chaîne polymère",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 59,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Qu'est-ce qu'un acide fort dans l'eau ? Comment calcule-t-on le pH d'une solution d'acide fort de concentration c ?",
+      "question_latex": "Qu'est-ce qu'un acide fort dans l'eau ? Comment calcule-t-on le pH d'une solution d'acide fort de concentration c ?",
+      "answer": "Un acide fort est un acide qui réagit totalement avec l'eau : sa réaction avec l'eau est totale (taux d'avancement final = 1).\nIl ne subsiste plus de molécules d'acide en solution, elles sont entièrement dissociées en ions.\nPour un monoacide fort AH de concentration c : [H3 O+] = c, donc pH = −log(c/c°).\nOn vérifie expérimentalement : si pHmesuré ≈ −log(c), l'acide est bien fort.",
+      "answer_latex": "Un acide fort est un acide qui réagit totalement avec l'eau : sa réaction avec l'eau est totale (taux d'avancement final = 1).\nIl ne subsiste plus de molécules d'acide en solution, elles sont entièrement dissociées en ions.\nPour un monoacide fort AH de concentration c : $[H_3O^+] = c$, donc $pH = -\\log(c/c°)$.\nOn vérifie expérimentalement : si $pH_{\\text{mesuré}} \\approx -\\log(c)$, l'acide est bien fort.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 60,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Rappeler la condition d'obtention d'interférences constructives entre deux ondes de même longueur d'onde λ ayant une différence de chemin optique δ.",
+      "question_latex": "Rappeler la condition d'obtention d'interférences constructives entre deux ondes de même longueur d'onde λ ayant une différence de chemin optique δ.",
+      "answer": "Des interférences constructives se produisent lorsque la différence de chemin optique δ entre les deux ondes est un multiple entier de la longueur d'onde :\nδ = kλ, avec k entier (k = 0, 1, 2, …). L'amplitude résultante est alors maximale (les deux ondes arrivent en phase).\nPour des interférences destructives :\nδ = (k + 1/2)λ (les ondes arrivent en opposition de phase, l'amplitude est minimale).",
+      "answer_latex": "Des interférences constructives se produisent lorsque la différence de chemin optique δ entre les deux ondes est un multiple entier de la longueur d'onde :\nδ = kλ, avec k entier (k = 0, 1, 2, …). L'amplitude résultante est alors maximale (les deux ondes arrivent en phase).\nPour des interférences destructives :\nδ = (k + 1/2)λ (les ondes arrivent en opposition de phase, l'amplitude est minimale).",
+      "schema_present": true,
+      "schema_files": [
+        "image51.png"
+      ]
+    },
+    {
+      "id": 61,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Caractériser qualitativement le phénomène de convection comme mode de transfert thermique.",
+      "question_latex": "Caractériser qualitativement le phénomène de convection comme mode de transfert thermique.",
+      "answer": "La convection est un mode de transfert thermique qui se produit dans les fluides (liquides ou gaz) par déplacement de matière.\nLe fluide chaud, moins dense, monte, tandis que le fluide froid, plus dense, descend : cela crée des mouvements de convection. On distingue la convection naturelle (due aux différences de densité) et la convection forcée (due à un ventilateur, une pompe, etc.).\nLa convection n'existe pas dans les solides.",
+      "answer_latex": "La convection est un mode de transfert thermique qui se produit dans les fluides (liquides ou gaz) par déplacement de matière.\nLe fluide chaud, moins dense, monte, tandis que le fluide froid, plus dense, descend : cela crée des mouvements de convection. On distingue la convection naturelle (due aux différences de densité) et la convection forcée (due à un ventilateur, une pompe, etc.).\nLa convection n'existe pas dans les solides.",
+      "schema_present": true,
+      "schema_files": [
+        "image53.png"
+      ]
+    },
+    {
+      "id": 62,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Énoncer la loi de Newton du refroidissement (ou réchauffement). Quelle équation différentielle régit l'évolution de la température θ(t) d'un système en contact avec un thermostat à θext ?",
+      "question_latex": "Énoncer la loi de Newton du refroidissement (ou réchauffement). Quelle équation différentielle régit l'évolution de la température θ(t) d'un système en contact avec un thermostat à θext ?",
+      "answer": "La loi de Newton stipule que le flux thermique Φ reçu par un système à la température θ(t) en contact avec un milieu à la température constante θext est proportionnel à la différence de température : Φ = α (θext − θ(t)), avec α le coefficient d'échange thermique (W· K-1).\nL'équation différentielle est : dθ/dt + θ/τ = θext/τ, avec τ = mc/α.\nLa solution est θ(t) = (θ0 − θext)e−t/τ + θext (exponentielle décroissante tendant vers θext).",
+      "answer_latex": "La loi de Newton stipule que le flux thermique Φ reçu par un système à la température θ(t) en contact avec un milieu à la température constante θext est proportionnel à la différence de température : Φ = α (θext − θ(t)), avec α le coefficient d'échange thermique (W· K-1).\nL'équation différentielle est : dθ/dt + θ/τ = θext/τ, avec τ = mc/α.\nLa solution est θ(t) = (θ0 − θext)e−t/τ + θext (exponentielle décroissante tendant vers θext).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 63,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Énoncer la loi des gaz parfaits.\nComment l'utiliser pour montrer que P/T = constante à volume et quantité de matière constants ?",
+      "question_latex": "Énoncer la loi des gaz parfaits.\nComment l'utiliser pour montrer que P/T = constante à volume et quantité de matière constants ?",
+      "answer": "La loi des gaz parfaits s'écrit : PV = nRT, avec P la pression (Pa), V le volume (m³), n la quantité de matière (mol), R = 8,314 J· K-1.mol-1 la constante des gaz parfaits, et T la température (K).\nPour un système fermé (n = cst) à volume constant (V = cst) :\nP/T = nR/V = constante.\nDonc P1/T1 = P2/T2. Si T diminue à V et n constants, alors P diminue proportionnellement.",
+      "answer_latex": "La loi des gaz parfaits s'écrit : PV = nRT, avec P la pression (Pa), V le volume (m3), n la quantité de matière (mol), R = 8,314 J· K-1.mol-1 la constante des gaz parfaits, et T la température (K).\nPour un système fermé (n = cst) à volume constant (V = cst) :\nP/T = nR/V = constante.\nDonc P1/T1 = P2/T2. Si T diminue à V et n constants, alors P diminue proportionnellement.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 64,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Quelle est l'expression de la résultante des forces pressantes exercées par un fluide sur une surface plane S soumise à une différence de pression ΔP ?",
+      "question_latex": "Quelle est l'expression de la résultante des forces pressantes exercées par un fluide sur une surface plane S soumise à une différence de pression ΔP ?",
+      "answer": "La résultante des forces pressantes a pour valeur : F = ΔP.S, avec ΔP = |Pext − Pint| la différence de pression (Pa) et S la surface de la paroi (m²). Elle est perpendiculaire à la surface et dirigée du côté de la haute pression vers le côté de la basse pression.\nExemple : si Pint < Pext (réfrigérateur après fermeture), la force pressante pousse la porte vers l'intérieur, rendant l'ouverture difficile.",
+      "answer_latex": "La résultante des forces pressantes a pour valeur : F = ΔP.S, avec ΔP = |Pext − Pint| la différence de pression (Pa) et S la surface de la paroi (m2). Elle est perpendiculaire à la surface et dirigée du côté de la haute pression vers le côté de la basse pression.\nExemple : si Pint < Pext (réfrigérateur après fermeture), la force pressante pousse la porte vers l'intérieur, rendant l'ouverture difficile.",
+      "schema_present": true,
+      "schema_files": [
+        "image55.png"
+      ]
+    },
+    {
+      "id": 65,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Donner l'expression du niveau d'intensité sonore L (en dB) en fonction de l'intensité sonore I.\nQuelle est l'intensité de référence I0 ?",
+      "question_latex": "Donner l'expression du niveau d'intensité sonore L (en dB) en fonction de l'intensité sonore I.\nQuelle est l'intensité de référence I0 ?",
+      "answer": "Le niveau d'intensité sonore est : L = 10log(I/I0),\navec I l'intensité sonore (W.m-2) et\nI0 = 1,0.10-12 W.m-2 (seuil d'audibilité).",
+      "answer_latex": "Le niveau d'intensité sonore est : L = 10log(I/I0),\navec I l'intensité sonore (W.m-2) et\nI0 = 1,0.10-12 W.m-2 (seuil d'audibilité).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 68,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Montrer que le mouvement d'un satellite en orbite circulaire est uniforme et établir l'expression de sa vitesse : v = √(GM/(R+h)).",
+      "question_latex": "Montrer que le mouvement d'un satellite en orbite circulaire est uniforme et établir l'expression de sa vitesse : v = $\\sqrt{GM/(R+h)}$.",
+      "answer": "2de loi de Newton : vec(F) = mvec(a).\nvec(F) = GmM/ (R+h)2vec(u)_N = mdv/dtvec(u)_T+ mv2/(R+h)\nSur vec(u)_T : 0 = mdv/dt\n⇒ dv/dt = 0 ⇒ v = cste (uniforme).\nSur vec(u)_N:\nGmM/(R+h)2 = mv2/(R+h)\nOn simplifie par m et (R+h) :\nv2 = GM/(R+h)\nv   = √(GM/(R+h)).",
+      "answer_latex": "2de loi de Newton : $\\vec{F} = m\\vec{a}$.\n$\\vec{F} = \\frac{GmM}{(R+h)^2}\\vec{u}_N = m\\frac{dv}{dt}\\vec{u}_T + \\frac{mv^2}{R+h}\\vec{u}_N$\nSur $\\vec{u}_T$ : $0 = m\\frac{dv}{dt}$\n⇒ dv/dt = 0 ⇒ v = cste (uniforme).\nSur $\\vec{u}_N$ :\n$\\frac{GmM}{(R+h)^2} = \\frac{mv^2}{R+h}$\nOn simplifie par m et (R+h) :\n$v^2 = \\frac{GM}{R+h}$\n$v = \\sqrt{\\frac{GM}{R+h}}$.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 69,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Établir l'expression de la période de révolution T d'un satellite en orbite circulaire à l'altitude h autour d'un astre de masse M et de rayon R.",
+      "question_latex": "Établir l'expression de la période de révolution T d'un satellite en orbite circulaire à l'altitude h autour d'un astre de masse M et de rayon R.",
+      "answer": "T = périmètre/vitesse = 2π(R+h)/v\n= 2π(R+h) / √(GM/(R+h))\n= 2π(R+h)^(3/2) / √(GM)\nOn retrouve la 3e loi de Kepler : T² = 4π²(R+h)³ / (GM).",
+      "answer_latex": "T = périmètre/vitesse = $\\frac{2\\pi(R+h)}{v}$\n$= \\frac{2\\pi(R+h)}{\\sqrt{\\frac{GM}{R+h}}} = \\frac{2\\pi(R+h)^{3/2}}{\\sqrt{GM}}$\nOn retrouve la 3e loi de Kepler : $T^2 = \\frac{4\\pi^2(R+h)^3}{GM}$.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 71,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Définir un oxydant. Comment identifier l'oxydant et le réducteur dans une équation de réaction d'oxydoréduction ?",
+      "question_latex": "Définir un oxydant. Comment identifier l'oxydant et le réducteur dans une équation de réaction d'oxydoréduction ?",
+      "answer": "Un oxydant est une espèce chimique capable de capter un ou plusieurs électrons.\nDans l'équation, l'oxydant est le réactif qui est réduit (gagne des e-), le réducteur est celui qui est oxydé (perd des e-).",
+      "answer_latex": "Un oxydant est une espèce chimique capable de capter un ou plusieurs électrons.\nDans l'équation, l'oxydant est le réactif qui est réduit (gagne des e-), le réducteur est celui qui est oxydé (perd des e-).",
+      "schema_present": true,
+      "schema_files": [
+        "image57.png"
+      ]
+    },
+    {
+      "id": 73,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Comment calculer la puissance P et l'énergie E d’une batterie ? Qu'est-ce que l'énergie volumique ?",
+      "question_latex": "Comment calculer la puissance P et l'énergie E d’une batterie ? Qu'est-ce que l'énergie volumique ?",
+      "answer": "P = U.I (en W).\nE = PΔt (en J ou en Wh si Δt en h).\nL'énergie volumique = E/Vtotal (en WhL-1).\nElle permet de comparer les technologies de stockage.",
+      "answer_latex": "P = U.I (en W). E = PΔt (en J ou en Wh si Δt en h).\nL'énergie volumique = E/Vtotal (en WhL-1).\nElle permet de comparer les technologies de stockage.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 78,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Pour un objet lancé verticalement vers le haut depuis l'origine avec une vitesse initiale v0, établir les expressions de x(t) et y(t).",
+      "question_latex": "Pour un objet lancé verticalement vers le haut depuis l'origine avec une vitesse initiale $v_0$, établir les expressions de x(t) et y(t).",
+      "answer": "Axe x (horizontal) :\nax = 0, vx(0) = 0 ⇒ vx(t) = 0 ⇒ x(t) = 0\n(mouvement purement vertical).\nAxe y (vertical, vers le haut) :\nay = −g, vy(0) = v0 ⇒  vy(t) = −gt + v0.\nPar intégration : y(t) = −1/2gt² + v0t + C'.\nCondition initiale : y(0) = 0 ⇒ C' = 0.\nDonc y(t) = -1/2gt² + v0t.",
+      "answer_latex": "Axe x (horizontal) :\n$a_x = 0$, $v_x(0) = 0$ ⇒ $v_x(t) = 0$ ⇒ $x(t) = 0$\n(mouvement purement vertical).\nAxe y (vertical, vers le haut) :\n$a_y = -g$, $v_y(0) = v_0$ ⇒ $v_y(t) = -gt + v_0$.\nPar intégration : $y(t) = -\\frac{1}{2}gt^2 + v_0 t + C'$.\nCondition initiale : y(0) = 0 ⇒ C' = 0.\nDonc $y(t) = -\\frac{1}{2}gt^2 + v_0 t$.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 79,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Montrer que la vitesse initiale v0 d'un objet lancé verticalement est liée à la hauteur maximale hmax par :\nv0 = √(2gh_max)",
+      "question_latex": "Montrer que la vitesse initiale v0 d'un objet lancé verticalement est liée à la hauteur maximale hmax par :\nv0 = $\\sqrt{2gh_{max}}$",
+      "answer": "Théorème de l'énergie cinétique entre le sol (altitude 0) et le sommet (altitude hmax, vitesse nulle) :\nΔEc = W(vec(P))\n1/2m·0² – 1/2m·v0² = −mghmax\n– 1/2mv0² = −mghmax (on simplifie par −m)\nv0² = 2ghmax\nv0 = √(2gh_max)",
+      "answer_latex": "Théorème de l'énergie cinétique entre le sol (altitude 0) et le sommet (altitude hmax, vitesse nulle) :\nΔEc = W($\\vec{P}$)\n1/2m.02 – 1/2mv0² = −mghmax\n– 1/2mv0² = −mghmax (on simplifie par −m)\nv02 = 2ghmax\nv0 = $\\sqrt{2gh_{max}}$",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 80,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Lors de la chute libre d'un objet, comment évoluent l'énergie cinétique, l'énergie potentielle de pesanteur et l'énergie mécanique ?",
+      "question_latex": "Lors de la chute libre d'un objet, comment évoluent l'énergie cinétique, l'énergie potentielle de pesanteur et l'énergie mécanique ?",
+      "answer": "Ec augmente (l'objet accélère), Ep diminue (l'altitude diminue),\nEm = Ec + Ep reste constante (conservation de l'énergie mécanique en l'absence de frottements).",
+      "answer_latex": "Ec augmente (l'objet accélère), Ep diminue (l'altitude diminue),\nEm = Ec + Ep reste constante (conservation de l'énergie mécanique en l'absence de frottements).",
+      "schema_present": true,
+      "schema_files": [
+        "image59.png"
+      ]
+    },
+    {
+      "id": 82,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Comment déterminer si une espèce subit une oxydation ou une réduction à partir de sa demi-équation électronique ?",
+      "question_latex": "Comment déterminer si une espèce subit une oxydation ou une réduction à partir de sa demi-équation électronique ?",
+      "answer": "Oxydation : perte d'électrons (les e- sont du côté des produits).\nRéduction : gain d'électrons (les e- sont du côté des réactifs).\nExemple : Red → Ox + 2e- est une oxydation.",
+      "answer_latex": "Oxydation : perte d'électrons (les e- sont du côté des produits).\nRéduction : gain d'électrons (les e- sont du côté des réactifs).\nExemple : R → Ox + 2e- est une oxydation.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 85,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Montrer comment calculer la quantité de matière d'électrons ne à partir du courant I et de la durée Δt de fonctionnement d'une pile.",
+      "question_latex": "Montrer comment calculer la quantité de matière d'électrons ne à partir du courant I et de la durée Δt de fonctionnement d'une pile.",
+      "answer": "Q = I.Δt (charge en C). Puis ne = Q/F avec F = 96 500 C.mol-1.\nExemple : I = 48 μA, Δt = 12 min = 720 s\n⇒ Q = 48.10-6.720 = 3,46.10-2 C\n⇒ ne = 3,46.10-2/96 500 ≈ 3,6.10-7 mol.",
+      "answer_latex": "Q = I.Δt (charge en C). Puis ne = Q/F avec F = 96 500 C.mol-1.\nExemple : I = 48 μA, Δt = 12 min = 720 s\n⇒ Q = 48.10-6.720 = 3,46.10-2 C\n⇒ ne = 3,46.10-2/96 500 ≈ 3,6.10-7 mol.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 86,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Sur un graphique tension en fonction du temps pour une batterie, comment distinguer la courbe de charge de la courbe de décharge ?",
+      "question_latex": "Sur un graphique tension en fonction du temps pour une batterie, comment distinguer la courbe de charge de la courbe de décharge ?",
+      "answer": "Lors de la charge, la tension augmente progressivement (on fournit de l'énergie). Lors de la décharge, la tension diminue (la batterie fournit de l'énergie). La courbe de charge est donc celle dont la tension croît.",
+      "answer_latex": "Lors de la charge, la tension augmente progressivement (on fournit de l'énergie). Lors de la décharge, la tension diminue (la batterie fournit de l'énergie). La courbe de charge est donc celle dont la tension croît.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 87,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Pour un titrage d'une espèce qui contient deux fonctions acide H2A par une base HO-, établir la relation à l'équivalence et en déduire la concentration en acide.",
+      "question_latex": "Pour un titrage d'une espèce qui contient deux fonctions acide $\\text{H}_2\\text{A}$ par une base $\\text{HO}^-$, établir la relation à l'équivalence et en déduire la concentration en acide.",
+      "answer": "Réaction : H2A + 2 HO- → A2- + 2 H2O.\nÀ l'équivalence :\nn(H2A) = n(HO-)/2\nCA.VA = CB.VBéq / 2\nCA = CB.VBéq /(2.VA)",
+      "answer_latex": "Réaction : $\\text{H}_2\\text{A} + 2\\text{HO}^- \\rightarrow \\text{A}^{2-} + 2\\text{H}_2\\text{O}$.\nÀ l'équivalence :\n$n(\\text{H}_2\\text{A}) = n(\\text{HO}^-)/2$\n$C_A \\cdot V_A = C_B \\cdot V_{B\\text{éq}} / 2$\n$C_A = \\frac{C_B \\cdot V_{B\\text{éq}}}{2 \\cdot V_A}$",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 89,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Comment comparer un résultat de mesure Xmes à une valeur de référence Xref en utilisant l'incertitude-type ?",
+      "question_latex": "Comment comparer un résultat de mesure Xmes à une valeur de référence Xref en utilisant l'incertitude-type ?",
+      "answer": "On calcule le z-score : z = |Xmes − Xref| / u(X).\nSi z < 2 : l'écart est compatible avec la valeur de référence (accord).\nSi z > 2 : l'écart est significatif (désaccord).",
+      "answer_latex": "On calcule le z-score : z = |Xmes − Xref| / u(X).\nSi z < 2 : l'écart est compatible avec la valeur de référence (accord).\nSi z > 2 : l'écart est significatif (désaccord).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 92,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Comment calculer le volume d'un gaz produit lors d'une réaction chimique à partir de sa quantité de matière ?",
+      "question_latex": "Comment calculer le volume d'un gaz produit lors d'une réaction chimique à partir de sa quantité de matière ?",
+      "answer": "V = n.Vm, où Vm est le volume molaire (en Lmol-1) dans les conditions de l'expérience.\nÀ 20 °C et 1 atm : Vm ≈ 24 L.mol-1.",
+      "answer_latex": "V = n.Vm, où Vm est le volume molaire (en Lmol-1) dans les conditions de l'expérience.\nÀ 20 °C et 1 atm : Vm ≈ 24 L.mol-1.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 93,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Montrer comment calculer la concentration molaire C d'une solution commerciale à partir de son titre massique w, de sa masse volumique ρ et de la masse molaire M du soluté.",
+      "question_latex": "Montrer comment calculer la concentration molaire C d'une solution commerciale à partir de son titre massique w, de sa masse volumique ρ et de la masse molaire M du soluté.",
+      "answer": "Dans 1 L de solution, masse totale = ρ (g).\nMasse de soluté = w ×ρ.\nQuantité de matière = w ×ρ / M.\nDonc C = w ×ρ / M.\nExemple : w = 23 %, ρ = 1120 g/L, M = 36,5 g/mol → C ≈ 7 mol/L.",
+      "answer_latex": "Dans 1 L de solution, masse totale = ρ (g).\nMasse de soluté = w ×ρ.\nQuantité de matière = w ×ρ / M.\nDonc C = w ×ρ / M.\nExemple : w = 23 %, ρ = 1120 g/L, M = 36,5 g/mol → C ≈ 7 mol/L.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 94,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Écrire l'équation de la réaction entre un acide fort (H3 O+) et une base forte (HO-).",
+      "question_latex": "Écrire l'équation de la réaction entre un acide fort (H3 O+) et une base forte (HO-).",
+      "answer": "H3O+(aq) + HO-(aq) → 2 H2O(ℓ).\nC'est une réaction totale (K très grand).\nC'est la réaction support du titrage d'un acide fort par une base forte.",
+      "answer_latex": "H3O+(aq) + HO-(aq) → 2 H2O(ℓ).\nC'est une réaction totale (K très grand).\nC'est la réaction support du titrage d'un acide fort par une base forte.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 95,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Comment déterminer la concentration d'une solution titrée à partir de la courbe pH = f(Vversé) et de sa dérivée ?",
+      "question_latex": "Comment déterminer la concentration d'une solution titrée à partir de la courbe pH = f(Vversé) et de sa dérivée ?",
+      "answer": "1) Repérer Véq au maximum de la dérivée dpH/dV.\n2) À l'équivalence : ntitré = ntitrant ⇒ CS.VS = Cb.Véq.\n3) En déduire CS = Cb.Véq / VS.\nSi dilution préalable de facteur F : Ccommerciale = CS.F.",
+      "answer_latex": "1) Repérer Véq au maximum de la dérivée dpH/dV.\n2) À l'équivalence : ntitré = ntitrant ⇒ CS.VS = Cb.Véq.\n3) En déduire CS = Cb.Véq / VS.\nSi dilution préalable de facteur F : Ccommerciale = CS.F.",
+      "schema_present": true,
+      "schema_files": [
+        "image61.png"
+      ]
+    },
+    {
+      "id": 96,
+      "chapter": "3. Cinétique",
+      "theme": "3. Cinétique",
+      "question": "Définir le temps de demi-réaction t1/2. Comment le déterminer graphiquement sur une courbe C = f(t) ?",
+      "question_latex": "Définir le temps de demi-réaction t1/2. Comment le déterminer graphiquement sur une courbe C = f(t) ?",
+      "answer": "Le temps de demi-réaction t1/2 est la durée au bout de laquelle l'avancement atteint la moitié de sa valeur finale.\nSur une courbe C = f(t), on détermine t1/2 en traçant l'horizontale d'ordonnée C0/2 (moitié de la concentration initiale du réactif limitant) ou Cf/2 (moitié de la concentration finale du produit),\npuis en lisant l'abscisse du point d'intersection avec la courbe.",
+      "answer_latex": "Le temps de demi-réaction t1/2 est la durée au bout de laquelle l'avancement atteint la moitié de sa valeur finale.\nSur une courbe C = f(t), on détermine t1/2 en traçant l'horizontale d'ordonnée C0/2 (moitié de la concentration initiale du réactif limitant) ou Cf/2 (moitié de la concentration finale du produit),\npuis en lisant l'abscisse du point d'intersection avec la courbe.",
+      "schema_present": true,
+      "schema_files": [
+        "image63.png"
+      ]
+    },
+    {
+      "id": 97,
+      "chapter": "3. Cinétique",
+      "theme": "3. Cinétique",
+      "question": "Quel est l'effet de la température sur la vitesse d'une réaction chimique ? Comment le mettre en évidence à l'aide du temps de demi-réaction ?",
+      "question_latex": "Quel est l'effet de la température sur la vitesse d'une réaction chimique ? Comment le mettre en évidence à l'aide du temps de demi-réaction ?",
+      "answer": "Une augmentation de température accélère la réaction : t1/2 diminue quand T augmente. On compare les t1/2 à différentes températures sur les courbes C = f(t).\nPlus T est élevée, plus la courbe décroît vite.\nC'est pourquoi certains produits doivent être conservés au frais.",
+      "answer_latex": "Une augmentation de température accélère la réaction : t1/2 diminue quand T augmente. On compare les t1/2 à différentes températures sur les courbes C = f(t).\nPlus T est élevée, plus la courbe décroît vite.\nC'est pourquoi certains produits doivent être conservés au frais.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 101,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Vers quelle température tend un système en contact avec un environnement à température constante, en l'absence de source de chaleur ?",
+      "question_latex": "Vers quelle température tend un système en contact avec un environnement à température constante, en l'absence de source de chaleur ?",
+      "answer": "Le système tend vers l'équilibre thermique avec son environnement. Sa température finale est celle de l'environnement (Tair). Les transferts thermiques se font toujours du corps chaud vers le corps froid, jusqu'à égalité des températures.",
+      "answer_latex": "Le système tend vers l'équilibre thermique avec son environnement. Sa température finale est celle de l'environnement (Tair). Les transferts thermiques se font toujours du corps chaud vers le corps froid, jusqu'à égalité des températures.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 102,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Pour un système thermique d'équation θ(t) = θ0e-t/τ + θf(1 − e-t/τ), que représentent τ et θf ? Comment les calculer ?",
+      "question_latex": "Pour un système thermique d'équation θ(t) = θ0e-t/τ + θf(1 − e-t/τ), que représentent τ et θf ? Comment les calculer ?",
+      "answer": "τ = mcRth est le temps caractéristique (en s). Il caractérise la rapidité de l'évolution. Après environ 5τ, le système a atteint θf. θf est la température en régime permanent (t → ∞) : θf = θair + Rth.P (si apport de puissance P).",
+      "answer_latex": "τ = mcRth est le temps caractéristique (en s). Il caractérise la rapidité de l'évolution. Après environ 5τ, le système a atteint θf. θf est la température en régime permanent (t → ∞) : θf = θair + Rth.P (si apport de puissance P).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 104,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Pour des fentes d'Young séparées de b, à la distance D d'un écran, avec δ(M) = (b/D)x, montrer que i = Dλ/b.",
+      "question_latex": "Pour des fentes d'Young séparées de b, à la distance D d'un écran, avec δ(M) = (b/D)x, montrer que i = Dλ/b.",
+      "answer": "Interférences constructives : δ = kλ avec k entier.\nOr δ(M) = (b/D)x, donc : (b/D)xk = kλ\nxk = kDλ / b\nL'interfrange :\ni = xk+1 − xk\ni = (k+1)Dλ / b − kDλ / b\ni = Dλ / b.\nPlus b est petit, plus i est grand (figure étalée).",
+      "answer_latex": "Interférences constructives : δ = kλ avec k entier.\nOr δ(M) = (b/D)x, donc : (b/D)xk = kλ\nxk = kDλ / b\nL'interfrange :\ni = xk+1 − xk\ni = (k+1)Dλ / b − kDλ / b\ni = Dλ / b.\nPlus b est petit, plus i est grand (figure étalée).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 105,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Quel est le rôle d'un indicateur coloré dans un titrage ? Comment choisir un indicateur adapté ?",
+      "question_latex": "Quel est le rôle d'un indicateur coloré dans un titrage ? Comment choisir un indicateur adapté ?",
+      "answer": "L'indicateur coloré change de couleur au voisinage de l'équivalence, permettant de repérer le volume équivalent sans pH-mètre.\nIl faut que la zone de virage de l'indicateur contienne le pH à l'équivalence.\nExemple : pHéq ≈ 8,1 → rouge de crésol (zone 7,2–8,8) convient.",
+      "answer_latex": "L'indicateur coloré change de couleur au voisinage de l'équivalence, permettant de repérer le volume équivalent sans pH-mètre.\nIl faut que la zone de virage de l'indicateur contienne le pH à l'équivalence.\nExemple : pHéq ≈ 8,1 → rouge de crésol (zone 7,2–8,8) convient.",
+      "schema_present": true,
+      "schema_files": [
+        "image65.png"
+      ]
+    },
+    {
+      "id": 108,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Comment calculer la quantité de matière n d'un liquide pur à partir de son volume V, sa masse volumique ρ et sa masse molaire M ?",
+      "question_latex": "Comment calculer la quantité de matière n d'un liquide pur à partir de son volume V, sa masse volumique ρ et sa masse molaire M ?",
+      "answer": "Masse du liquide : m = ρ× V. Quantité de matière : n = m/M = ρV/M.\nAttention aux unités : ρ en g.mL-1 et V en mL donnent m en g, puis n = m/M en mol.",
+      "answer_latex": "Masse du liquide : m = ρ× V. Quantité de matière : n = m/M = ρV/M.\nAttention aux unités : ρ en g.mL-1 et V en mL donnent m en g, puis n = m/M en mol.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 109,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Qu'est-ce qu'un mélange stœchiométrique ? Comment le vérifier ?",
+      "question_latex": "Qu'est-ce qu'un mélange stœchiométrique ? Comment le vérifier ?",
+      "answer": "Un mélange est stœchiométrique si les quantités de matière des réactifs sont dans les proportions des coefficients stœchiométriques de l'équation bilan.\nPour aA + bB → produits : nA/a = nB/b.\nSi cette égalité est vérifiée, aucun des réactifs n'est en excès.",
+      "answer_latex": "Un mélange est stœchiométrique si les quantités de matière des réactifs sont dans les proportions des coefficients stœchiométriques de l'équation bilan.\nPour $a\\text{A} + b\\text{B} \\rightarrow$ produits : $\\frac{n_A}{a} = \\frac{n_B}{b}$.\nSi cette égalité est vérifiée, aucun des réactifs n'est en excès.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 110,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Montrer que le niveau sonore à la distance d2 s'écrit\nL2 = L1 − 20log(d2/d1).\nQue se passe-t-il quand on double la distance ?",
+      "question_latex": "Montrer que le niveau sonore à la distance d2 s'écrit\nL2 = L1 − 20log(d2/d1).\nQue se passe-t-il quand on double la distance ?",
+      "answer": "L2 − L1 = 10log(I2/I1).\nOr I = P/(4πd²), donc I1/I2 = d2²/d1².\nAinsi L2 − L1 = 10log(d1²/d2²) = −20log(d2/d1).\nQuand on double la distance (d2 = 2d1), L diminue de 20log(2) ≈ 6 dB.\nLe niveau sonore diminue de 6 dB chaque fois que la distance double.",
+      "answer_latex": "L2 − L1 = 10log(I2/I1) = 10log(d12/d22) = −20log(d2/d1).\nQuand on double la distance (d2 = 2d1), L diminue de 20log(2) ≈ 6 dB.\nLe niveau sonore diminue de 6 dB chaque fois que la distance double.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 112,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Exprimer le champ de pesanteur g à la surface d'un astre de masse M et de rayon R.\nCalculer gLune pour la Lune.",
+      "question_latex": "Exprimer le champ de pesanteur g à la surface d'un astre de masse M et de rayon R.\nCalculer gLune pour la Lune.",
+      "answer": "À la surface, le poids mg = force gravitationnelle GMm/R².\nDonc g = GM/R².\nPour la Lune : gLune = 6,67·10⁻¹¹ × 7,34·10²² / (1,74·10⁶)² ≈ 1,62 m·s⁻².\nC'est environ gTerre/6.",
+      "answer_latex": "À la surface, le poids mg = force gravitationnelle GMm/R2.\nDonc g = GM/R2.\nPour la Lune : gLune = 6,67.10-11.7,34.1022 / (1,74.106)2 ≈ 1,62 ms-2.\nC'est environ gTerre/6.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 113,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Pourquoi une molécule polaire possédant des liaisons O–H ou N–H est-elle très soluble dans l'eau ?",
+      "question_latex": "Pourquoi une molécule polaire possédant des liaisons O–H ou N–H est-elle très soluble dans l'eau ?",
+      "answer": "Une espèce polaire possédant des liaisons O–H ou N–H est souvent soluble dans l’eau, car elle peut y former des liaisons hydrogène, c’est-à-dire des interactions attractives entre un atome d’hydrogène déjà lié à un atome très électronégatif (O, N ou F) et un autre atome électronégatif porteur d’un doublet libre. Plus généralement, une espèce polaire se dissout dans un solvant polaire.",
+      "answer_latex": "Une espèce polaire possédant des liaisons O–H ou N–H est souvent soluble dans l’eau, car elle peut y former des liaisons hydrogène, c’est-à-dire des interactions attractives entre un atome d’hydrogène déjà lié à un atome très électronégatif (O, N ou F) et un autre atome électronégatif porteur d’un doublet libre. Plus généralement, une espèce polaire se dissout dans un solvant polaire.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 114,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Comment déterminer si une réaction est totale ou limitée à partir de l'avancement final xf et de l'avancement maximal xmax ?",
+      "question_latex": "Comment déterminer si une réaction est totale ou limitée à partir de l'avancement final xf et de l'avancement maximal xmax ?",
+      "answer": "On calcule xmax à partir du tableau d'avancement en cherchant le réactif limitant : xmax = min(quantité de matière initiale des réactifs / coefficient stœchiométrique).\nOn détermine xf à partir de la quantité de produit formé.\nSi xf = xmax : la réaction est totale.\nSi xf < xmax : la réaction est limitée (elle atteint un état d'équilibre chimique).",
+      "answer_latex": "On calcule xmax à partir du tableau d'avancement en cherchant le réactif limitant : xmax = min(quantité de matière initiale des réactifs / coefficient stœchiométrique).\nOn détermine xf à partir de la quantité de produit formé.\nSi xf = xmax : la réaction est totale.\nSi xf < xmax : la réaction est limitée (elle atteint un état d'équilibre chimique).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 115,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Comment distinguer une onde mécanique d'une onde électromagnétique ?\nÀ quelle catégorie appartiennent les ondes radio ?",
+      "question_latex": "Comment distinguer une onde mécanique d'une onde électromagnétique ?\nÀ quelle catégorie appartiennent les ondes radio ?",
+      "answer": "Une onde mécanique nécessite un milieu matériel pour se propager (son, vague, séisme).\nUne onde électromagnétique (EM) se propage dans le vide et dans les milieux matériels.\nLes ondes radio sont des ondes EM (comme la lumière visible, les UV, les IR, les rayons X…). Elles se propagent à la vitesse c ≈ 3.108 m/s dans le vide.",
+      "answer_latex": "Une onde mécanique nécessite un milieu matériel pour se propager (son, vague, séisme).\nUne onde électromagnétique (EM) se propage dans le vide et dans les milieux matériels.\nLes ondes radio sont des ondes EM (comme la lumière visible, les UV, les IR, les rayons X…). Elles se propagent à la vitesse c ≈ 3.108 m/s dans le vide.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 116,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Exprimer la variation d’énergie interne d’un système incompressible et relier cette variation au flux thermique reçu.",
+      "question_latex": "Exprimer la variation d’énergie interne d’un système incompressible et relier cette variation au flux thermique reçu.",
+      "answer": "Pour un système incompressible, ΔU = mcΔT.\nSi l’on considère un transfert thermique pendant une durée Δt, la puissance thermique reçue vaut\nΦ = ΔU/Δt = mc(ΔT/Δt).\nUn flux élevé signifie un transfert d'énergie rapide.",
+      "answer_latex": "Pour un système incompressible, ΔU = mcΔT.\nSi l’on considère un transfert thermique pendant une durée Δt, la puissance thermique reçue vaut\nΦ = ΔU/Δt = mc(ΔT/Δt).\nUn flux élevé signifie un transfert d'énergie rapide.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 117,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Représenter le diagramme de prédominance d'un couple acide/base AH/A- de pKA donné.\nComment déterminer l'espèce prédominante à un pH donné ?",
+      "question_latex": "Représenter le diagramme de prédominance d'un couple acide/base AH/A- de pKA donné.\nComment déterminer l'espèce prédominante à un pH donné ?",
+      "answer": "On trace un axe horizontal gradué en pH.\nOn place pKA au centre. À gauche de pKA (pH < pKA) : prédominance de l'acide AH.\nÀ droite de pKA (pH > pKA) : prédominance de la base A-.\nPour déterminer l'espèce prédominante, on compare le pH du milieu au pKA du couple.",
+      "answer_latex": "On trace un axe horizontal gradué en pH.\nOn place pKA au centre. À gauche de pKA (pH < pKA) : prédominance de l'acide AH.\nÀ droite de pKA (pH > pKA) : prédominance de la base A-.\nPour déterminer l'espèce prédominante, on compare le pH du milieu au pKA du couple.",
+      "schema_present": true,
+      "schema_files": [
+        "image67.png"
+      ]
+    },
+    {
+      "id": 118,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Comment écrire une demi-équation d'oxydo-réduction en milieu acide ? Quelles sont les étapes à suivre ?",
+      "question_latex": "Comment écrire une demi-équation d'oxydo-réduction en milieu acide ? Quelles sont les étapes à suivre ?",
+      "answer": "(1) Écrire l'oxydant et le réducteur du couple.\n(2) Équilibrer l'élément autre que O et H.\n(3) Équilibrer les atomes d'oxygène en ajoutant des molécules H2O.\n(4) Équilibrer les atomes d'hydrogène en ajoutant des ions H+ (ou H3O+).\n(5) Équilibrer les charges en ajoutant des électrons e-.",
+      "answer_latex": "(1) Écrire l'oxydant et le réducteur du couple.\n(2) Équilibrer l'élément autre que O et H.\n(3) Équilibrer les atomes d'oxygène en ajoutant des molécules H2O.\n(4) Équilibrer les atomes d'hydrogène en ajoutant des ions H+ (ou H3O+).\n(5) Équilibrer les charges en ajoutant des électrons e-.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 119,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Un objet de longueur L est situé à une distance D d'un observateur. Montrer que l'angle θ sous-tendu par l'objet est θ ≈ L/D (en radians) pour les petits angles.",
+      "question_latex": "Un objet de longueur L est situé à une distance D d'un observateur. Montrer que l'angle θ sous-tendu par l'objet est θ ≈ L/D (en radians) pour les petits angles.",
+      "answer": "Par définition, tan(θ) = L/D.\nPour les petits angles (θ << 1 rad), on a l'approximation tan(θ) ≈ θ (en radians).\nDonc θ ≈ L/D.\nCette approximation est valable pour θ < 0,1 rad environ.",
+      "answer_latex": "Par définition, tan(θ) = L/D.\nPour les petits angles (θ << 1 rad), on a l'approximation tan(θ) ≈ θ (en radians).\nDonc θ ≈ L/D.\nCette approximation est valable pour θ < 0,1 rad environ.",
+      "schema_present": true,
+      "schema_files": [
+        "image69.png"
+      ]
+    },
+    {
+      "id": 122,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Qu'est-ce qu'une réaction de substitution en chimie organique ? Donner un exemple de transformation par substitution.",
+      "question_latex": "Qu'est-ce qu'une réaction de substitution en chimie organique ? Donner un exemple de transformation par substitution.",
+      "answer": "Une réaction de substitution est une transformation au cours de laquelle un atome ou un groupe d'atomes est remplacé par un autre. Exemple : CH3CH2Br + HO- → CH3CH2OH + Br- (le brome est substitué par le groupe hydroxyle).",
+      "answer_latex": "Une réaction de substitution est une transformation au cours de laquelle un atome ou un groupe d'atomes est remplacé par un autre. Exemple : CH3CH2Br + HO- → CH3CH2OH + Br- (le brome est substitué par le groupe hydroxyle).",
+      "schema_present": true,
+      "schema_files": [
+        "image71.png"
+      ]
+    },
+    {
+      "id": 123,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Quels critères faut-il prendre en compte pour choisir un solvant lors d'une extraction liquide-liquide ou d'une synthèse organique ?",
+      "question_latex": "Quels critères faut-il prendre en compte pour choisir un solvant lors d'une extraction liquide-liquide ou d'une synthèse organique ?",
+      "answer": "(1) Solubilité : le solvant doit dissoudre les réactifs ou le produit souhaité.\n(2) Non-miscibilité avec l'eau (pour extraction liquide-liquide).\n(3) Sécurité : pictogrammes, toxicité, inflammabilité.\n(4) Facilité d'évaporation pour récupérer le produit.\n(5) Coût et disponibilité.",
+      "answer_latex": "(1) Solubilité : le solvant doit dissoudre les réactifs ou le produit souhaité.\n(2) Non-miscibilité avec l'eau (pour extraction liquide-liquide).\n(3) Sécurité : pictogrammes, toxicité, inflammabilité.\n(4) Facilité d'évaporation pour récupérer le produit.\n(5) Coût et disponibilité.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 124,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Qu'est-ce que la capacité Q d'une batterie ou d'une pile ? Quelle est son unité ?\nComment la relier à l'intensité du courant I et à la durée d'utilisation Δt ?",
+      "question_latex": "Qu'est-ce que la capacité Q d'une batterie ou d'une pile ? Quelle est son unité ?\nComment la relier à l'intensité du courant I et à la durée d'utilisation Δt ?",
+      "answer": "La capacité Q représente la quantité de charge électrique que peut délivrer la batterie.\nUnités : coulomb (C) ou ampère-heure (Ah) ou milliampère-heure (mAh).\nRelation : Q = IΔt.\nConversion : 1 Ah = 3600 C ; 1 mAh = 3,6 C.",
+      "answer_latex": "La capacité Q représente la quantité de charge électrique que peut délivrer la batterie.\nUnités : coulomb (C) ou ampère-heure (Ah) ou milliampère-heure (mAh).\nRelation : Q = IΔt.\nConversion : 1 Ah = 3600 C ; 1 mAh = 3,6 C.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 125,
+      "chapter": "4. Oxydoréduction",
+      "theme": "4. Oxydoréduction",
+      "question": "Qu'est-ce que la capacité massique d'une batterie ? Quelle est son unité ? Quel est son intérêt ?",
+      "question_latex": "Qu'est-ce que la capacité massique d'une batterie ? Quelle est son unité ? Quel est son intérêt ?",
+      "answer": "La capacité massique Qmassique est la capacité de la batterie rapportée à la masse de matière active (électrodes). Unité : mAh.g-1 (ou Ah.kg-1).\nIntérêt : comparer l'efficacité de différentes technologies de batteries.\nPlus elle est élevée, plus la batterie stocke d'énergie pour une masse donnée.",
+      "answer_latex": "La capacité massique Qmassique est la capacité de la batterie rapportée à la masse de matière active (électrodes). Unité : mAh.g-1 (ou Ah.kg-1).\nIntérêt : comparer l'efficacité de différentes technologies de batteries.\nPlus elle est élevée, plus la batterie stocke d'énergie pour une masse donnée.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 126,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Qu'est-ce qu'un diagramme de distribution des espèces acido-basiques ? Comment l'utiliser pour identifier l'espèce prédominante à un pH donné ?",
+      "question_latex": "Qu'est-ce qu'un diagramme de distribution des espèces acido-basiques ? Comment l'utiliser pour identifier l'espèce prédominante à un pH donné ?",
+      "answer": "Un diagramme de distribution représente les proportions relatives (en %) des différentes espèces d'un couple acide-base en fonction du pH.\nL'espèce prédominante à un pH donné est celle dont la courbe a la plus grande valeur (la plus haute) sur le diagramme.\nAu pKA, deux espèces coexistent à 50% chacune.",
+      "answer_latex": "Un diagramme de distribution représente les proportions relatives (en %) des différentes espèces d'un couple acide-base en fonction du pH.\nL'espèce prédominante à un pH donné est celle dont la courbe a la plus grande valeur (la plus haute) sur le diagramme.\nAu pKA, deux espèces coexistent à 50% chacune.",
+      "schema_present": true,
+      "schema_files": [
+        "image73.png"
+      ]
+    },
+    {
+      "id": 127,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Décrire le montage expérimental d'un titrage acido-basique avec suivi pH-métrique.\nQuels sont les éléments essentiels et leur rôle ?",
+      "question_latex": "Décrire le montage expérimental d'un titrage acido-basique avec suivi pH-métrique.\nQuels sont les éléments essentiels et leur rôle ?",
+      "answer": "(1) Burette graduée contenant la solution titrante.\n(2) Bécher contenant le volume prélevé de solution à titrer + agitateur magnétique.\n(3) pH-mètre avec sonde plongeant dans le bécher (mesure du pH).\n(4) Support + noix de serrage pour la burette. L'agitation assure l'homogénéité.",
+      "answer_latex": "(1) Burette graduée contenant la solution titrante.\n(2) Bécher contenant le volume prélevé de solution à titrer + agitateur magnétique.\n(3) pH-mètre avec sonde plongeant dans le bécher (mesure du pH).\n(4) Support + noix de serrage pour la burette. L'agitation assure l'homogénéité.",
+      "schema_present": true,
+      "schema_files": [
+        "image75.png"
+      ]
+    },
+    {
+      "id": 173,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Expliquer l’intérêt du relargage lors de la fabrication d’un savon.\nPourquoi utilise-t-on de l’eau salée ?",
+      "question_latex": "Expliquer l’intérêt du relargage lors de la fabrication d’un savon.\nPourquoi utilise-t-on de l’eau salée ?",
+      "answer": "L’eau salée diminue la solubilité du savon dans l’eau, ce qui facilite son isolement, contrairement à l’eau douce qui le laisserait davantage dissous.",
+      "answer_latex": "L’eau salée diminue la solubilité du savon dans l’eau, ce qui facilite son isolement, contrairement à l’eau douce qui le laisserait davantage dissous.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 128,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Énoncer la première loi de Kepler. Quelle est la position particulière occupée par le Soleil sur l'orbite elliptique d'une planète ? Quel astronome a établi ce résultat ?",
+      "question_latex": "Énoncer la première loi de Kepler. Quelle est la position particulière occupée par le Soleil sur l'orbite elliptique d'une planète ? Quel astronome a établi ce résultat ?",
+      "answer": "Première loi de Kepler (loi des orbites) : les planètes décrivent des orbites elliptiques dont le Soleil occupe l'un des deux foyers. L'astronome Johannes Kepler a établi ces lois au début du XVIIe siècle (1609-1619).",
+      "answer_latex": "Première loi de Kepler (loi des orbites) : les planètes décrivent des orbites elliptiques dont le Soleil occupe l'un des deux foyers. L'astronome Johannes Kepler a établi ces lois au début du XVIIe siècle (1609-1619).",
+      "schema_present": true,
+      "schema_files": [
+        "image77.png"
+      ]
+    },
+    {
+      "id": 129,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Énoncer la troisième loi de Kepler. Comment l'utiliser pour calculer la période de révolution T d'une planète connaissant son demi-grand axe a, à partir des données d'une autre planète ?",
+      "question_latex": "Énoncer la troisième loi de Kepler. Comment l'utiliser pour calculer la période de révolution T d'une planète connaissant son demi-grand axe a, à partir des données d'une autre planète ?",
+      "answer": "3e loi : T²/a³ = constante pour toutes les planètes du système solaire.\nPour deux planètes : T₁²/a₁³ = T₂²/a₂³.\nDonc T₂ = T₁·(a₂/a₁)^(3/2).\nOn élève le rapport des demi-grands axes à la puissance 3/2 et on multiplie par T₁.",
+      "answer_latex": "3e loi : $\\frac{T^2}{a^3}$ = constante pour toutes les planètes du système solaire.\nPour deux planètes : $\\frac{T_1^2}{a_1^3} = \\frac{T_2^2}{a_2^3}$.\nDonc $T_2 = T_1 \\left(\\frac{a_2}{a_1}\\right)^{3/2}$.\nOn élève le rapport des demi-grands axes à la puissance 3/2 et on multiplie par $T_1$.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 130,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Qu'est-ce que la capacité thermique C d'un corps ? Quelle est son unité ? Quelle est la différence avec la capacité thermique massique c ?",
+      "question_latex": "Qu'est-ce que la capacité thermique C d'un corps ? Quelle est son unité ? Quelle est la différence avec la capacité thermique massique c ?",
+      "answer": "La capacité thermique C (en JK-1 ou J°C-1) caractérise la capacité d'un corps à stocker de l'énergie thermique.\nRelation : ΔU = CΔθ. La capacité thermique massique c (en J.kg-1.K-1) est la capacité par unité de masse : C = mc.",
+      "answer_latex": "La capacité thermique C (en JK-1 ou J°C-1) caractérise la capacité d'un corps à stocker de l'énergie thermique.\nRelation : ΔU = CΔθ. La capacité thermique massique c (en J.kg-1.K-1) est la capacité par unité de masse : C = mc.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 131,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Définir le flux thermique Φ. Quelle est la relation entre le flux thermique Φ, la différence de température Δ θ et la résistance thermique Rth ?",
+      "question_latex": "Définir le flux thermique Φ. Quelle est la relation entre le flux thermique Φ, la différence de température Δ θ et la résistance thermique Rth ?",
+      "answer": "Le flux thermique Φ (en W) représente la puissance thermique échangée entre deux milieux.\nRelation : Φ = Δθ/Rth (analogue à la loi d'Ohm U = R×I).\nPlus Rth est grande, moins le transfert thermique est important (meilleure isolation).",
+      "answer_latex": "Le flux thermique Φ (en W) représente la puissance thermique échangée entre deux milieux.\nRelation : Φ = Δθ/Rth (analogue à la loi d'Ohm U = R×I).\nPlus Rth est grande, moins le transfert thermique est important (meilleure isolation).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 132,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Exprimer la masse m d'un gaz parfait contenu dans un volume V à la pression p et température T, en fonction de p, V, M (masse molaire), R et T.",
+      "question_latex": "Exprimer la masse m d'un gaz parfait contenu dans un volume V à la pression p et température T, en fonction de p, V, M (masse molaire), R et T.",
+      "answer": "À partir de pV = nRT avec n = m/M,\non obtient :\nm = (pVM) / (RT)",
+      "answer_latex": "À partir de pV = nRT avec n = m/M,\non obtient :\nm = (pVM) / (RT)",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 133,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Comment comparer l'efficacité d'une isolation thermique à partir des valeurs de flux thermique ?",
+      "question_latex": "Comment comparer l'efficacité d'une isolation thermique à partir des valeurs de flux thermique ?",
+      "answer": "Un flux thermique plus faible indique une meilleure isolation.\nSi φ2 < φ1, l'enveloppe 2 (double paroi) isole mieux que l'enveloppe 1 (simple couche).\nCela réduit les pertes d'énergie et la consommation de carburant.",
+      "answer_latex": "Un flux thermique plus faible indique une meilleure isolation.\nSi φ2 < φ1, l'enveloppe 2 (double paroi) isole mieux que l'enveloppe 1 (simple couche).\nCela réduit les pertes d'énergie et la consommation de carburant.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 134,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Établir la relation entre la variation de température θ(t+Δt) - θ(t) d'un système et le flux thermique φ qu'il reçoit pendant Δt (loi de Newton).",
+      "question_latex": "Établir la relation entre la variation de température θ(t+Δt) - θ(t) d'un système et le flux thermique φ qu'il reçoit pendant Δt (loi de Newton).",
+      "answer": "L'énergie reçue est Q = φ.Δt = C×[θ(t+Δt) - θ(t)].\nAvec φ = hS(θext - θ(t)),\non obtient : θ(t+Δt) - θ(t) = [hS(θext - θ(t))Δt]/C",
+      "answer_latex": "L'énergie reçue est Q = φ.Δt = C×[θ(t+Δt) - θ(t)].\nAvec φ = hS(θext - θ(t)),\non obtient : θ(t+Δt) - θ(t) = [hS(θext - θ(t))Δt]/C",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 136,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Comment calculer le coefficient d'échange thermique surfacique h à partir du temps caractéristique τ, de la capacité thermique C et de la surface S\n(relation : τ = C/(hS)) ?",
+      "question_latex": "Comment calculer le coefficient d'échange thermique surfacique h à partir du temps caractéristique τ, de la capacité thermique C et de la surface S\n(relation : τ = C/(hS)) ?",
+      "answer": "h = C/(τS).",
+      "answer_latex": "h = C/(τS).\nOn compare ensuite la valeur obtenue aux valeurs typiques pour déterminer si l'expérience s'est déroulée avec ou sans courant d'air.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 137,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Proposer une formule développée pour l'acide oxalique (C2 H2 O4) sachant qu'il comporte deux fonctions acide carboxylique.",
+      "question_latex": "Proposer une formule développée pour l'acide oxalique (C2 H2 O4) sachant qu'il comporte deux fonctions acide carboxylique.",
+      "answer": "HOOC-COOH. Chaque fonction -COOH contient un atome de carbone, donc les deux carbones portent chacun un groupe carboxyle.",
+      "answer_latex": "HOOC-COOH. Chaque fonction -COOH contient un atome de carbone, donc les deux carbones portent chacun un groupe carboxyle.",
+      "schema_present": true,
+      "schema_files": [
+        "image79.png"
+      ]
+    },
+    {
+      "id": 138,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Comment déterminer graphiquement le pKA d'un couple acide-base lors d'un titrage ?",
+      "question_latex": "Comment déterminer graphiquement le pKA d'un couple acide-base lors d'un titrage ?",
+      "answer": "Le pKA correspond au pH à la demi-équivalence, c'est-à-dire lorsque les quantités de matière de l'acide et de sa base conjuguée sont égales.",
+      "answer_latex": "Le pKA correspond au pH à la demi-équivalence, c'est-à-dire lorsque les quantités de matière de l'acide et de sa base conjuguée sont égales.",
+      "schema_present": true,
+      "schema_files": [
+        "image81.png"
+      ]
+    },
+    {
+      "id": 139,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Que signifie le pictogramme de danger 'SGH08' (silhouette avec une étoile sur le thorax) ?",
+      "question_latex": "Que signifie le pictogramme de danger 'SGH08' (silhouette avec une étoile sur le thorax) ?",
+      "answer": "Danger pour la santé (sensibilisation, cancérogène, mutagène, toxique pour la reproduction).\nJustifie l'utilisation de concentrations faibles et de précautions lors des manipulations.",
+      "answer_latex": "Danger pour la santé (sensibilisation, cancérogène, mutagène, toxique pour la reproduction).\nJustifie l'utilisation de concentrations faibles et de précautions lors des manipulations.",
+      "schema_present": true,
+      "schema_files": [
+        "image83.png"
+      ]
+    },
+    {
+      "id": 143,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Comment déterminer la concentration d'une solution dosée à partir du volume équivalent et de la concentration de la solution titrante dans un dosage redox ?",
+      "question_latex": "Comment déterminer la concentration d'une solution dosée à partir du volume équivalent et de la concentration de la solution titrante dans un dosage redox ?",
+      "answer": "À l'équivalence :\nC1.V1 / a1 = C2.Véq / a2\na1 et a2 sont les coefficients stœchiométriques des deux réactifs.",
+      "answer_latex": "À l'équivalence :\nC1.V1 / a1 = C2.Véq / a2\na1 et a2 sont les coefficients stœchiométriques des deux réactifs.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 145,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Écrire l'équation de la réaction entre l'ammoniac NH3 et l'eau.",
+      "question_latex": "Écrire l'équation de la réaction entre l'ammoniac $NH_3$ et l'eau.",
+      "answer": "NH3(aq) + H2O(ℓ) ⇌NH4+(aq) + HO-(aq)",
+      "answer_latex": "$\\text{NH}_{3\\text{(aq)}} + \\text{H}_2\\text{O}_{\\text{(l)}} \\rightleftharpoons \\text{NH}_{4\\text{(aq)}}^+ + \\text{HO}_{\\text{(aq)}}^-$",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 146,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Comment montrer qu'une espèce est une base faible dans l'eau ?",
+      "question_latex": "Comment montrer qu'une espèce est une base faible dans l'eau ?",
+      "answer": "Calculer [HO-] à partir du pH. Si [HO-] << cbase, la réaction avec l'eau est limitée, donc c'est une base faible.\nOu montrer que le taux d'avancement final τ << 1.",
+      "answer_latex": "Calculer [HO-] à partir du pH. Si [HO-] << cbase, la réaction avec l'eau est limitée, donc c'est une base faible.\nOu montrer que le taux d'avancement final τ << 1.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 147,
+      "chapter": "3. Cinétique",
+      "theme": "3. Cinétique",
+      "question": "Définir la vitesse volumique d'apparition d'un produit.",
+      "question_latex": "Définir la vitesse volumique d'apparition d'un produit.",
+      "answer": "vproduit = d[produit]/dt. C'est la dérivée de la concentration du produit par rapport au temps.\nElle est positive car le produit apparaît.",
+      "answer_latex": "vproduit = d[produit]/dt. C'est la dérivée de la concentration du produit par rapport au temps.\nElle est positive car le produit apparaît.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 148,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Déterminer l'expression et les caractéristiques du vecteur accélération d'une particule chargée dans un champ électrique uniforme en appliquant la 2e loi de Newton.",
+      "question_latex": "Déterminer l'expression et les caractéristiques du vecteur accélération d'une particule chargée dans un champ électrique uniforme en appliquant la 2e loi de Newton.",
+      "answer": "vec(F) = qvec(E) = mvec(a), donc vec(a) = qvec(E)/m.\nDirection : celle de vec(E).\nSens : celui de vec(E) si q>0, opposé si q<0.\nLe mouvement est rectiligne uniformément accéléré.",
+      "answer_latex": "$\\vec{F}$ = q$\\vec{E}$ = m$\\vec{a}$, donc $\\vec{a}$ = q$\\vec{E}$/m.\nDirection : celle de $\\vec{E}$.\nSens : celui de $\\vec{E}$ si q>0, opposé si q<0.\nLe mouvement est rectiligne uniformément accéléré.",
+      "schema_present": true,
+      "schema_files": [
+        "image85.png"
+      ]
+    },
+    {
+      "id": 149,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Pour une particule initialement au repos accélérée dans un champ électrique uniforme, établir l'expression de sa vitesse v = √(2qU/m)",
+      "question_latex": "Pour une particule initialement au repos accélérée dans un champ électrique uniforme, établir l'expression de sa vitesse v = $\\sqrt{2qU/m}$",
+      "answer": "Théorème de l'énergie cinétique : ΔEc = W(Félec) = qU.\nDonc (1/2)mv2 - 0 = qU, d'où v = √(2qU/m)",
+      "answer_latex": "Théorème de l'énergie cinétique : $\\Delta E_c = W(F_{\\text{élec}}) = qU$.\nDonc $\\frac{1}{2}mv^2 - 0 = qU$, d'où $v = \\sqrt{\\frac{2qU}{m}}$.",
+      "schema_present": true,
+      "schema_files": [
+        "image87.png"
+      ]
+    },
+    {
+      "id": 151,
+      "chapter": "10. Mécanique",
+      "theme": "10. Mécanique",
+      "question": "Comment déterminer graphiquement l'accélération d'une particule à partir d'un graphique v = f(t) ?",
+      "question_latex": "Comment déterminer graphiquement l'accélération d'une particule à partir d'un graphique v = f(t) ?",
+      "answer": "L'accélération est la dérivée de la vitesse : a = dv/dt. Graphiquement, c'est le coefficient directeur de la tangente à la courbe v(t), ou Δv/Δt sur un segment.",
+      "answer_latex": "L'accélération est la dérivée de la vitesse : a = dv/dt. Graphiquement, c'est le coefficient directeur de la tangente à la courbe v(t), ou Δv/Δt sur un segment.",
+      "schema_present": true,
+      "schema_files": [
+        "image89.png"
+      ]
+    },
+    {
+      "id": 152,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Qu'est-ce qu'un système optique afocal ?",
+      "question_latex": "Qu'est-ce qu'un système optique afocal ?",
+      "answer": "Un système afocal transforme un faisceau de rayons parallèles entrants en un faisceau de rayons parallèles sortants. Il donne d'un objet situé à l'infini une image située à l'infini.\nLes foyers image de l'objectif et objet de l'oculaire sont confondus : F'1 = F2.",
+      "answer_latex": "Un système afocal transforme un faisceau de rayons parallèles entrants en un faisceau de rayons parallèles sortants. Il donne d'un objet situé à l'infini une image située à l'infini.\nLes foyers image de l'objectif et objet de l'oculaire sont confondus : F'1 = F2.",
+      "schema_present": true,
+      "schema_files": [
+        "image91.png"
+      ]
+    },
+    {
+      "id": 153,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Définir le grossissement d'une lunette et montrer que G = f'1/f'2.",
+      "question_latex": "Définir le grossissement d'une lunette et montrer que G = f'1/f'2.",
+      "answer": "G = θ'/θ où θ' est l'angle apparent avec lunette et θ sans lunette.\nA1B1 est l'image intermédiaire formée par l'objectif dans le plan focal image F'1.\ntan(θ') ≈ θ' = A1B1/f'2\ntan(θ) ≈ θ = A1B1/f'1\nDonc G = f'1/f'2.",
+      "answer_latex": "G = θ'/θ où θ' est l'angle apparent avec lunette et θ sans lunette.\nA1B1 est l'image intermédiaire formée par l'objectif dans le plan focal image F'1.\ntan(θ') ≈ θ' = A1B1/f'2\ntan(θ) ≈ θ = A1B1/f'1\nDonc G = f'1/f'2.",
+      "schema_present": true,
+      "schema_files": [
+        "image93.png"
+      ]
+    },
+    {
+      "id": 156,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Exprimer la conductivité σ d'une solution contenant plusieurs espèces ioniques en fonction des conductivités molaires ioniques λᵢ et des concentrations [Xᵢ].",
+      "question_latex": "Exprimer la conductivité σ d'une solution contenant plusieurs espèces ioniques en fonction des conductivités molaires ioniques λᵢ et des concentrations [Xᵢ].",
+      "answer": "σ = Σλᵢ.[Xᵢ] où la somme porte sur tous les ions présents. σ = λ1[X1] + λ2[X2] + λ3[X3] + ...",
+      "answer_latex": "σ = Σλᵢ.[Xᵢ] où la somme porte sur tous les ions présents. σ = λ1[X1] + λ2[X2] + λ3[X3] + ...",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 157,
+      "chapter": "3. Cinétique",
+      "theme": "3. Cinétique",
+      "question": "Pourquoi peut-on suivre une réaction lente par conductimétrie ?",
+      "question_latex": "Pourquoi peut-on suivre une réaction lente par conductimétrie ?",
+      "answer": "Si la réaction produit ou consomme des ions, la conductivité σ varie au cours du temps.\nEn mesurant σ(t), on peut suivre l'évolution des concentrations ioniques et donc l'avancement de la réaction.",
+      "answer_latex": "Si la réaction produit ou consomme des ions, la conductivité σ varie au cours du temps.\nEn mesurant σ(t), on peut suivre l'évolution des concentrations ioniques et donc l'avancement de la réaction.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 158,
+      "chapter": "3. Cinétique",
+      "theme": "3. Cinétique",
+      "question": "Donner l'allure de la courbe représentant la vitesse volumique de disparition d'un réactif en fonction de sa concentration pour une cinétique d'ordre 1.",
+      "question_latex": "Donner l'allure de la courbe représentant la vitesse volumique de disparition d'un réactif en fonction de sa concentration pour une cinétique d'ordre 1.",
+      "answer": "Pour un ordre 1 : v = k[réactif].\nLa courbe v = f([réactif]) est une droite passant par l'origine, de pente k.",
+      "answer_latex": "Pour un ordre 1 : v = k[réactif].\nLa courbe v = f([réactif]) est une droite passant par l'origine, de pente k.",
+      "schema_present": true,
+      "schema_files": [
+        "image95.png"
+      ]
+    },
+    {
+      "id": 159,
+      "chapter": "3. Cinétique",
+      "theme": "3. Cinétique",
+      "question": "Établir l'équation différentielle vérifiée par [réactif](t) pour une réaction d'ordre 1.",
+      "question_latex": "Établir l'équation différentielle vérifiée par [réactif](t) pour une réaction d'ordre 1.",
+      "answer": "Une cinétique d'ordre 1 est une réaction chimique où la vitesse est proportionnelle à la concentration du réactif.\nv = -d[réactif]/dt et v =  k[réactif],\ndonc d[réactif]/dt = -k[réactif]\nou d[réactif]/dt + k[réactif] = 0",
+      "answer_latex": "Une cinétique d'ordre 1 est une réaction chimique où la vitesse est proportionnelle à la concentration du réactif.\nv = -d[réactif]/dt et v =  k[réactif],\ndonc d[réactif]/dt = -k[réactif]\nou d[réactif]/dt + k[réactif] = 0",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 160,
+      "chapter": "3. Cinétique",
+      "theme": "3. Cinétique",
+      "question": "Comment déterminer la constante de vitesse k à partir du graphique ln([réactif]) = f(t) pour une réaction d'ordre 1 ?",
+      "question_latex": "Comment déterminer la constante de vitesse k à partir du graphique ln([réactif]) = f(t) pour une réaction d'ordre 1 ?",
+      "answer": "Pour une réaction d'ordre 1, la concentration du réactif suit une loi exponentielle décroissante.\nEn passant au logarithme népérien, on obtient une relation affine :\nln([réactif]) = ln([réactif]0) - k.t.\nC'est une droite de pente -k.\nDonc k = -coefficient directeur de la droite ln([réactif]) = f(t).",
+      "answer_latex": "Pour une réaction d'ordre 1, la concentration du réactif suit une loi exponentielle décroissante.\nEn passant au logarithme népérien, on obtient une relation affine :\nln([réactif]) = ln([réactif]0) - k.t.\nC'est une droite de pente -k.\nDonc k = -coefficient directeur de la droite ln([réactif]) = f(t).",
+      "schema_present": true,
+      "schema_files": [
+        "image97.png"
+      ]
+    },
+    {
+      "id": 162,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Définir la diffraction.",
+      "question_latex": "Définir la diffraction.",
+      "answer": "La diffraction est le phénomène de déviation d'une onde lorsqu'elle rencontre un obstacle ou une ouverture de taille comparable à sa longueur d'onde λ.",
+      "answer_latex": "La diffraction est le phénomène de déviation d'une onde lorsqu'elle rencontre un obstacle ou une ouverture de taille comparable à sa longueur d'onde λ.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 163,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Quelle condition doit vérifier la taille d'une ouverture ou d'un obstacle pour qu'on observe facilement la diffraction d'une onde de longueur d'onde λ ?",
+      "question_latex": "Quelle condition doit vérifier la taille d'une ouverture ou d'un obstacle pour qu'on observe facilement la diffraction d'une onde de longueur d'onde λ ?",
+      "answer": "La taille a de l'ouverture ou de l'obstacle doit être de l'ordre de grandeur de λ (a ≈λ) ou quelques λ.\nSi a >> λ, la diffraction est négligeable.",
+      "answer_latex": "La taille a de l'ouverture ou de l'obstacle doit être de l'ordre de grandeur de λ (a ≈λ) ou quelques fois λ.\nSi a >> λ, la diffraction est négligeable.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 164,
+      "chapter": "6. Ondes et optique",
+      "theme": "6. Ondes et optique",
+      "question": "Comment déterminer la largeur de la tache centrale sur un graphique d'intensité lumineuse en fonction de la position ?",
+      "question_latex": "Comment déterminer la largeur de la tache centrale sur un graphique d'intensité lumineuse en fonction de la position ?",
+      "answer": "Repérer les deux premiers minima de part et d'autre du maximum central.\nLa largeur L de la tache centrale est la distance entre ces deux minima.",
+      "answer_latex": "Repérer les deux premiers minima de part et d'autre du maximum central.\nLa largeur L de la tache centrale est la distance entre ces deux minima.",
+      "schema_present": true,
+      "schema_files": [
+        "image25.png"
+      ]
+    },
+    {
+      "id": 165,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Définir un acide selon Brönsted. Donner un exemple avec l'acide ascorbique (C6H8O6).",
+      "question_latex": "Définir un acide selon Brönsted. Donner un exemple avec l'acide ascorbique ($\\text{C}_6\\text{H}_8\\text{O}_6$).",
+      "answer": "Un acide de Brønsted est une espèce chimique capable de céder un proton H+.\nL'acide ascorbique : C6H8O6 → C6H7O6- + H+.\nLe couple acide/base est C6H8O6 / C6H7O6-.",
+      "answer_latex": "Un acide de Brønsted est une espèce chimique capable de céder un proton $\\text{H}^+$.\nL'acide ascorbique : $\\text{C}_6\\text{H}_8\\text{O}_6 \\rightarrow \\text{C}_6\\text{H}_7\\text{O}_6^- + \\text{H}^+$.\nLe couple acide/base est $\\text{C}_6\\text{H}_8\\text{O}_6 / \\text{C}_6\\text{H}_7\\text{O}_6^-$.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 166,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Quelle est la relation entre le pH d'une solution et la concentration en ions oxonium [H3O+] ?",
+      "question_latex": "Quelle est la relation entre le pH d'une solution et la concentration en ions oxonium [H3O+] ?",
+      "answer": "pH = -log([H3O+]) et inversement [H3O+] = 10-pH.\nLa concentration est exprimée en mol/L.\nPlus le pH est bas, plus la solution est acide.",
+      "answer_latex": "pH = -log([H3O+]) et inversement [H3O+] = 10-pH.\nLa concentration est exprimée en mol/L.\nPlus le pH est bas, plus la solution est acide.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 167,
+      "chapter": "1. Acide-Base",
+      "theme": "1. Acide-Base",
+      "question": "Comment distinguer un acide fort d'un acide faible à partir de la mesure du pH ?",
+      "question_latex": "Comment distinguer un acide fort d'un acide faible à partir de la mesure du pH ?",
+      "answer": "Pour un acide fort : pH = -log(c)\n(dissociation totale, taux d'avancement final = 1).\nPour un acide faible : pH > -log(c)\n(dissociation partielle, τf < 1).\nOn compare le pH mesuré à -log(c).",
+      "answer_latex": "Pour un acide fort : $pH = -\\log(c)$\n(dissociation totale, taux d'avancement final = 1).\nPour un acide faible : $pH > -\\log(c)$\n(dissociation partielle, $\\tau_f < 1$).\nOn compare le pH mesuré à $-\\log(c)$.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 168,
+      "chapter": "5. Électricité",
+      "theme": "5. Électricité",
+      "question": "Énoncer la loi d’Ohm pour un conducteur ohmique de résistance R.",
+      "question_latex": "Énoncer la loi d’Ohm pour un conducteur ohmique de résistance R.",
+      "answer": "La loi d’Ohm s’écrit uR = Ri, avec uR en volt (V), R en ohm (Ω) et i en ampère (A).",
+      "answer_latex": "La loi d’Ohm s’écrit uR = Ri, avec uR en volt (V), R en ohm (Ω) et i en ampère (A).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 169,
+      "chapter": "5. Électricité",
+      "theme": "5. Électricité",
+      "question": "Donner la relation mathématique entre l’intensité du courant i(t) et la charge électrique q(t). Préciser les unités.",
+      "question_latex": "Donner la relation mathématique entre l’intensité du courant i(t) et la charge électrique q(t). Préciser les unités.",
+      "answer": "On a i(t) = dq/dt. L’intensité i s’exprime en ampère (A), la charge q en coulomb (C) et le temps t en seconde (s).",
+      "answer_latex": "On a i(t) = dq/dt. L’intensité i s’exprime en ampère (A), la charge q en coulomb (C) et le temps t en seconde (s).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 170,
+      "chapter": "5. Électricité",
+      "theme": "5. Électricité",
+      "question": "Dans un circuit RC série, établir la relation entre E, uR(t) et uC(t) à l’aide de la loi des mailles.",
+      "question_latex": "Dans un circuit RC série, établir la relation entre E, uR(t) et uC(t) à l’aide de la loi des mailles.",
+      "answer": "D’après la loi des mailles :\nE = uR(t) + uC(t) (ou E - uR(t) - uC(t) = 0).",
+      "answer_latex": "D’après la loi des mailles :\nE = uR(t) + uC(t) (ou E - uR(t) - uC(t) = 0).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 171,
+      "chapter": "2. Chimie analytique",
+      "theme": "2. Chimie analytique",
+      "question": "Écrire l’équation de dissolution du carbonate de sodium dans l’eau Na2CO3(s)",
+      "question_latex": "Écrire l’équation de dissolution du carbonate de sodium dans l’eau Na2CO3(s)",
+      "answer": "Na2CO3(s) → 2 Na+(aq) + CO3²−(aq).",
+      "answer_latex": "Na2CO3(s) → 2 Na+(aq) + CO3²−(aq).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 172,
+      "chapter": "8. Synthèse",
+      "theme": "8. Synthèse",
+      "question": "Citer deux règles de sécurité relatives à l’utilisation de la soude concentrée.",
+      "question_latex": "Citer deux règles de sécurité relatives à l’utilisation de la soude concentrée.",
+      "answer": "Porter des lunettes, des gants et une blouse.\nÉviter tout contact avec la peau et les yeux.",
+      "answer_latex": "Porter des lunettes, des gants et une blouse.\nÉviter tout contact avec la peau et les yeux.",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 177,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Donner l’expression de la résistance thermique d’une paroi plane homogène d’épaisseur e, de conductivité thermique λ et de surface S.",
+      "question_latex": "Donner l’expression de la résistance thermique d’une paroi plane homogène d’épaisseur e, de conductivité thermique λ et de surface S.",
+      "answer": "La résistance thermique vaut\nRth = e/(λS), avec e en m, λ en W·m⁻¹·K⁻¹ et S en m².\nSon unité est le kelvin par watt (K·W⁻¹).",
+      "answer_latex": "La résistance thermique vaut\nRth = e/(λS), avec e en m, λ en W·m⁻¹·K⁻¹ et S en m².\nSon unité est le kelvin par watt (K·W⁻¹).",
+      "schema_present": false,
+      "schema_files": []
+    },
+    {
+      "id": 178,
+      "chapter": "7. Thermodynamique",
+      "theme": "7. Thermodynamique",
+      "question": "Identifier le mode de transfert thermique dominant : à travers une paroi solide, dans un fluide en mouvement, et par émission d’ondes électromagnétiques.",
+      "question_latex": "Identifier le mode de transfert thermique dominant : à travers une paroi solide, dans un fluide en mouvement, et par émission d’ondes électromagnétiques.",
+      "answer": "À travers une paroi solide : conduction.\nDans un fluide en mouvement : convection.\nPar émission d’ondes électromagnétiques : rayonnement.",
+      "answer_latex": "À travers une paroi solide : conduction.\nDans un fluide en mouvement : convection.\nPar émission d’ondes électromagnétiques : rayonnement.",
+      "schema_present": false,
+      "schema_files": []
+    }
+  ]
+}
