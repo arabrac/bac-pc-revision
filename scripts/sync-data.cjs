@@ -1,0 +1,13 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const data = JSON.parse(fs.readFileSync(path.join(root,'data.json'),'utf8'));
+data.appInfo.totalQuestions = data.questions.length;
+data.appInfo.totalChapters = data.chapters.length;
+for (const ch of data.chapters) ch.questionCount = data.questions.filter(q=>q.chapter===ch.name).length;
+const file=path.join(root,'index.html');
+const html=fs.readFileSync(file,'utf8');
+const pattern=/const EMBEDDED_DATA = [\s\S]*?;\s*\/\/ ===== INIT/;
+if(!pattern.test(html))throw Error('Données intégrées introuvables');
+fs.writeFileSync(path.join(root,'data.json'),JSON.stringify(data,null,2)+'\n');
+fs.writeFileSync(file,html.replace(pattern,()=> 'const EMBEDDED_DATA = '+JSON.stringify(data,null,2)+';\n\n// ===== INIT'));

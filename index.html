@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bac PC - Révision Cours</title>
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -10,22 +10,22 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Bac PC">
     <meta name="theme-color" content="#3F51B5">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <link rel="stylesheet" href="vendor/katex/katex.min.css">
+    <script src="vendor/katex/katex.min.js"></script>
+    <script src="vendor/katex/auto-render.min.js"></script>
     <style>
         :root {
             --primary: #3F51B5;
             --primary-dark: #303F9F;
             --primary-light: #C5CAE9;
-            --secondary: #4CAF50;
+            --secondary: #2E7D32;
             --accent: #FF9800;
-            --error: #F44336;
+            --error: #C62828;
             --tertiary: #9C27B0;
             --bg: #F5F5F5;
             --surface: #FFFFFF;
             --text: #212121;
-            --text-secondary: #757575;
+            --text-secondary: #595959;
             --border: #E0E0E0;
             --shadow: rgba(0,0,0,0.12);
         }
@@ -434,13 +434,33 @@
             .card-text { font-size: 16px; }
             .card-face { padding: 16px; }
         }
+        [hidden] { display: none !important; }
+        button { font: inherit; }
+        button:focus-visible, summary:focus-visible { outline: 3px solid #111; outline-offset: 4px; }
+        .header button:focus-visible { outline-color: white; }
+        .chapter-card { width: 100%; border: 0; border-left: 4px solid var(--primary); color: var(--text); text-align: left; }
+        .help-panel { max-width: 568px; margin: 16px auto 0; padding: 16px; background: white; border-radius: 12px; line-height: 1.6; }
+        .help-panel summary { cursor: pointer; font-weight: 600; color: var(--primary-dark); }
+        .help-panel p { margin-top: 12px; }
+        .card-container { cursor: default; flex: 0; }
+        .card-flipper, .card-flipper.flipped, .card-back { transform: none; }
+        .card-face { position: relative; overflow-wrap: anywhere; }
+        .flip-btn { flex: none; width: 100%; margin: 0 0 16px; background: white; }
+        .nav-btn:disabled { opacity: .5; cursor: default; }
+        .schema-button { width: 100%; border: 1px solid var(--border); border-radius: 8px; background: white; color: var(--primary-dark); cursor: zoom-in; }
+        .schema-button span { display: block; padding: 8px; }
+        .zoom-controls { position: absolute; top: 64px; display: flex; gap: 8px; padding: 8px; background: white; max-width: 100%; flex-wrap: wrap; justify-content: center; z-index: 1001; }
+        .zoom-controls .nav-btn { flex: none; }
+        .zoom-hint { width: min(90%, 560px); text-align: center; }
+        @media (max-width: 600px) { .help-panel { margin: 16px; } }
+        @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
     </style>
 </head>
 <body>
 
 <!-- HEADER -->
 <div class="header">
-    <button class="back-btn" id="backBtn" onclick="goBack()">←</button>
+    <button class="back-btn" id="backBtn" aria-label="Retour aux chapitres" onclick="goBack()">←</button>
     <div class="title-area">
         <h1 id="headerTitle">Bac PC - Révision Cours</h1>
         <div class="subtitle" id="headerSubtitle"></div>
@@ -467,7 +487,8 @@
             </div>
         </div>
     </div>
-    <div class="chapters-list" id="chaptersList"></div>
+    <details class="help-panel"><summary>Comment réviser et suivre sa progression ?</summary><p>Cherchez votre réponse avant de l’afficher, puis choisissez À revoir, Difficile, Bien ou Facile. Le compteur « Maîtrisées » correspond à trois validations consécutives (Difficile, Bien ou Facile) ; À revoir remet cette série à zéro. Il s’agit d’une autoévaluation, pas d’une note.</p><p>La progression est conservée dans ce navigateur, sur cet appareil. Elle n’est pas synchronisée et peut disparaître si les données du navigateur sont effacées. Complétez ces cartes par des exercices et des annales.</p><p id="storageStatus" role="status"></p></details>
+<div class="chapters-list" id="chaptersList"></div>
 </div>
 
 <!-- ÉCRAN FLASHCARD -->
@@ -477,18 +498,18 @@
             <div class="progress-track">
                 <div class="progress-fill" id="progressFill"></div>
             </div>
-            <div class="progress-text" id="progressText">1 / 10</div>
+            <div class="progress-text" id="progressText" role="status" aria-live="polite">1 / 10</div>
         </div>
 
-        <div class="card-container" onclick="flipCard()">
+        <div class="card-container">
             <div class="card-flipper" id="cardFlipper">
                 <div class="card-face card-front">
                     <div class="card-label">QUESTION</div>
                     <div class="card-id" id="questionId"></div>
                     <div class="card-text" id="questionText"></div>
-                    <div class="card-hint">Cliquez pour voir la réponse</div>
+                    <div class="card-hint">Cherchez votre réponse, puis utilisez le bouton ci-dessous.</div>
                 </div>
-                <div class="card-face card-back">
+                <div class="card-face card-back" hidden>
                     <div class="card-label">RÉPONSE</div>
                     <div class="card-id" id="answerId"></div>
                     <div class="card-text" id="answerText"></div>
@@ -496,6 +517,8 @@
                 </div>
             </div>
         </div>
+
+        <button type="button" class="nav-btn flip-btn" id="flipBtn" onclick="flipCard()" aria-expanded="false" aria-controls="answerText schemaSection">Afficher la réponse</button>
 
         <!-- Boutons navigation (question non retournée) -->
         <div id="navButtons" class="nav-buttons">
@@ -525,12 +548,13 @@
 </div>
 
 <!-- MODAL ZOOM SCHÉMA -->
-<div class="zoom-overlay" id="zoomOverlay">
-    <button class="zoom-close" onclick="closeZoom()">✕</button>
+<div class="zoom-overlay" id="zoomOverlay" role="dialog" aria-modal="true" aria-label="Schéma agrandi" hidden>
+    <button class="zoom-close" id="zoomClose" aria-label="Fermer le schéma agrandi" onclick="closeZoom()">✕</button>
     <div class="zoom-img-container" id="zoomContainer">
         <img class="zoom-img" id="zoomImg" src="" alt="Schéma zoomé">
     </div>
-    <div class="zoom-hint" id="zoomHint">Molette ou pincement pour zoomer — Double-clic pour ×2.5</div>
+    <div class="zoom-controls"><button type="button" class="nav-btn" onclick="adjustZoom(0.5)">Agrandir</button><button type="button" class="nav-btn" onclick="adjustZoom(-0.5)">Réduire</button><button type="button" class="nav-btn" onclick="adjustZoom(0, true)">Taille initiale</button></div>
+<div class="zoom-hint" id="zoomHint">Molette ou pincement pour zoomer — Double-clic pour ×2.5</div>
 </div>
 
 <script>
@@ -548,7 +572,7 @@ let progress = {};
 const EMBEDDED_DATA = {
   "appInfo": {
     "name": "Bac PC - Révision Cours",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "totalQuestions": 139,
     "totalChapters": 10
   },
@@ -575,7 +599,7 @@ const EMBEDDED_DATA = {
     },
     {
       "name": "6. Ondes et optique",
-      "questionCount": 15
+      "questionCount": 14
     },
     {
       "name": "7. Thermodynamique",
@@ -736,8 +760,8 @@ const EMBEDDED_DATA = {
       "theme": "10. Mécanique",
       "question": "Forces sur un objet flottant en équilibre ? Expressions ?",
       "question_latex": "Forces sur un objet flottant en équilibre ? Expressions ?",
-      "answer": "Poids vec(P) = mvec(g)\nPoussée d'Archimède vec(P)_A = ρfluide.Vimmergé.vec(g)\nÉquilibre : vec(P) = vec(-P)_A",
-      "answer_latex": "Poids $\\vec{P}$ = m$\\vec{g}$\nPoussée d'Archimède $\\vec{P}_{A}$ = $\\rho_{\\text{fluide}}$ . $V_{\\text{immergé}}$ . $\\vec{g}$\nÉquilibre : $\\vec{P}$ = $-\\vec{P}_{A}$",
+      "answer": "Poids : vec(P) = m vec(g).\nPoussée d’Archimède : vec(P)_A = −ρfluide Vimmergé vec(g), à l’opposé du champ de pesanteur.\nÀ l’équilibre : vec(P) + vec(P)_A = vec(0).",
+      "answer_latex": "Poids : $\\vec{P} = m\\vec{g}$.\nPoussée d’Archimède : $\\vec{P}_{A} = -\\rho_{\\text{fluide}} V_{\\text{immergé}}\\vec{g}$, à l’opposé du champ de pesanteur.\nÀ l’équilibre : $\\vec{P} + \\vec{P}_{A} = \\vec{0}$.",
       "schema_present": true,
       "schema_files": [
         "image15.png"
@@ -987,8 +1011,8 @@ const EMBEDDED_DATA = {
       "theme": "1. Acide-Base",
       "question": "Définir un ampholyte.",
       "question_latex": "Définir un ampholyte.",
-      "answer": "Espèce chimique capable de se comporter à la fois comme un acide et comme une base.\nHCO3- :\nacide H2CO3/HCO3- → H2CO3 = HCO3- + H+ ;\nbase HCO3-/CO32- → HCO3- = CO32- + H+.\nH2O :\nacide H3O+/H2O → H3O+ = H2O + H+ ;\nbase H2O/HO- → H2O = HO- + H+.",
-      "answer_latex": "Espèce chimique capable de se comporter à la fois comme un acide et comme une base.\nHCO3- :\nacide H2CO3/HCO3- → H2CO3 = HCO3- + H+ ;\nbase HCO3-/CO32- → HCO3- = CO32- + H+.\nH2O :\nacide H3O+/H2O → H3O+ = H2O + H+ ;\nbase H2O/HO- → H2O = HO- + H+.",
+      "answer": "Espèce chimique capable de céder ou de capter un proton H⁺.\nHCO₃⁻ est la base du couple H₂CO₃/HCO₃⁻ et l’acide du couple HCO₃⁻/CO₃²⁻.\nComme base : HCO₃⁻ + H⁺ ⇌ H₂CO₃.\nComme acide : HCO₃⁻ ⇌ CO₃²⁻ + H⁺.\nH₂O est la base du couple H₃O⁺/H₂O et l’acide du couple H₂O/HO⁻.\nComme base : H₂O + H⁺ ⇌ H₃O⁺.\nComme acide : H₂O ⇌ HO⁻ + H⁺.\nCes écritures formelles illustrent les couples ; en solution aqueuse, un proton est transféré entre un acide et une base.",
+      "answer_latex": "Espèce chimique capable de céder ou de capter un proton H⁺.\nHCO₃⁻ est la base du couple H₂CO₃/HCO₃⁻ et l’acide du couple HCO₃⁻/CO₃²⁻.\nComme base : HCO₃⁻ + H⁺ ⇌ H₂CO₃.\nComme acide : HCO₃⁻ ⇌ CO₃²⁻ + H⁺.\nH₂O est la base du couple H₃O⁺/H₂O et l’acide du couple H₂O/HO⁻.\nComme base : H₂O + H⁺ ⇌ H₃O⁺.\nComme acide : H₂O ⇌ HO⁻ + H⁺.\nCes écritures formelles illustrent les couples ; en solution aqueuse, un proton est transféré entre un acide et une base.",
       "schema_present": false,
       "schema_files": []
     },
@@ -2236,8 +2260,12 @@ async function init() {
         allQuestions = appData.questions;
 
         // Charger progression
-        const saved = localStorage.getItem('bacpc_progress');
-        if (saved) progress = JSON.parse(saved);
+        try {
+            const saved = JSON.parse(localStorage.getItem('bacpc_progress') || '{}');
+            if (saved && typeof saved === 'object' && !Array.isArray(saved)) progress = saved;
+        } catch (e) {
+            document.getElementById('storageStatus').textContent = 'La progression enregistrée est indisponible. Vous pouvez continuer à réviser.';
+        }
 
         document.getElementById('totalQuestions').textContent = allQuestions.length;
         document.getElementById('totalChapters').textContent = appData.chapters.length;
@@ -2249,11 +2277,15 @@ async function init() {
 }
 
 function saveProgress() {
-    localStorage.setItem('bacpc_progress', JSON.stringify(progress));
+    try {
+        localStorage.setItem('bacpc_progress', JSON.stringify(progress));
+    } catch (e) {
+        document.getElementById('storageStatus').textContent = 'Ce navigateur ne permet pas de conserver votre progression. Elle restera disponible pendant cette séance uniquement.';
+    }
 }
 
 function updateKnownCount() {
-    const known = Object.values(progress).filter(p => p.consecutiveCorrect >= 3).length;
+    const known = allQuestions.filter(q => progress[q.id]?.consecutiveCorrect >= 3).length;
     document.getElementById('knownCount').textContent = known;
 }
 
@@ -2269,6 +2301,8 @@ function goBack() {
     document.getElementById('headerTitle').textContent = 'Bac PC - Révision Cours';
     document.getElementById('headerSubtitle').textContent = '';
     updateKnownCount();
+    renderChapters();
+    document.querySelector('.chapter-card')?.focus();
 }
 
 // ===== CHAPITRES =====
@@ -2284,18 +2318,19 @@ function renderChapters() {
         }).length;
         const pct = questions.length > 0 ? Math.round(knownInChapter / questions.length * 100) : 0;
 
-        const card = document.createElement('div');
+        const card = document.createElement('button');
+        card.type = 'button';
         card.className = 'chapter-card';
         card.onclick = () => openChapter(ch.name);
         card.innerHTML = `
-            <div style="flex:1">
-                <div class="ch-name">${ch.name}</div>
-                <div class="ch-count">${questions.length} questions — ${pct}% maîtrisé</div>
-                <div class="ch-progress">
-                    <div class="ch-progress-bar" style="width:${pct}%"></div>
-                </div>
-            </div>
-            <div class="ch-arrow">›</div>
+            <span style="flex:1">
+                <span class="ch-name" style="display:block">${ch.name}</span>
+                <span class="ch-count" style="display:block">${questions.length} questions — ${pct}% maîtrisé</span>
+                <span class="ch-progress" style="display:block" aria-hidden="true">
+                    <span class="ch-progress-bar" style="display:block;width:${pct}%"></span>
+                </span>
+            </span>
+            <span class="ch-arrow" aria-hidden="true">›</span>
         `;
         container.appendChild(card);
     });
@@ -2313,6 +2348,7 @@ function openChapter(chapterName) {
 
     showScreen('flashcardScreen');
     renderCard();
+    document.getElementById('flipBtn').focus();
 }
 
 function renderCard() {
@@ -2338,19 +2374,26 @@ function renderCard() {
     const aText = q.answer_latex && q.answer_latex.includes('$') ? q.answer_latex : q.answer;
     document.getElementById('answerText').innerHTML = formatText(aText);
 
-    // Schémas
+    // A named button provides keyboard access to each diagram.
     const schemaSection = document.getElementById('schemaSection');
-    if (q.schema_present && q.schema_files && q.schema_files.length > 0) {
-        let html = '<div class="schema-section">';
-        html += '<div class="schema-label">SCHÉMA 🔍</div>';
-        html += '<div class="schema-hint">Cliquez pour zoomer</div>';
-        q.schema_files.forEach(f => {
-            html += `<img class="schema-img" src="schemas/${f}" alt="${f}" onclick="event.stopPropagation(); openZoom('schemas/${f}')" onerror="this.style.display='none'">`;
+    schemaSection.replaceChildren();
+    if (q.schema_present && q.schema_files?.length) {
+        q.schema_files.forEach((file, index) => {
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'schema-button';
+            const description = q.schema_descriptions?.[file] || 'Schéma associé à la fiche : ' + q.question.replace(/\n/g, ' ');
+            const label = 'Agrandir le schéma ' + (index + 1) + ' de la fiche ' + q.id;
+            const img = document.createElement('img');
+            img.className = 'schema-img';
+            img.src = 'schemas/' + file;
+            img.alt = description;
+            const caption = document.createElement('span');
+            caption.textContent = label;
+            button.append(img, caption);
+            button.onclick = () => openZoom(img.src, description);
+            schemaSection.appendChild(button);
         });
-        html += '</div>';
-        schemaSection.innerHTML = html;
-    } else {
-        schemaSection.innerHTML = '';
     }
 
     // Reset flip
@@ -2359,40 +2402,35 @@ function renderCard() {
     document.getElementById('navButtons').style.display = 'flex';
     document.getElementById('srsSection').style.display = 'none';
 
-    // Render KaTeX
-    setTimeout(() => {
-        renderMathInElement(document.getElementById('questionText'), {
-            delimiters: [
-                {left: '$$', right: '$$', display: true},
-                {left: '$', right: '$', display: false}
-            ],
-            throwOnError: false
-        });
-        renderMathInElement(document.getElementById('answerText'), {
-            delimiters: [
-                {left: '$$', right: '$$', display: true},
-                {left: '$', right: '$', display: false}
-            ],
-            throwOnError: false
-        });
+    updateCardFace();
+    document.querySelector('[onclick="prevQuestion()"]').disabled = currentIndex === 0;
+    document.querySelector('[onclick="nextQuestion()"]').disabled = currentIndex === currentQuestions.length - 1;
+    // Render before displaying a new card, without a delayed callback.
+    for (const id of ['questionText', 'answerText']) {
+        const element = document.getElementById(id);
+        if (typeof renderMathInElement === 'function') {
+            renderMathInElement(element, {
+                delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}],
+                throwOnError: false
+            });
+        }
+        processSubscripts(element);
+    }
+}
 
-        // Post-process chimie + physique
-        processSubscripts(document.getElementById('questionText'));
-        processSubscripts(document.getElementById('answerText'));
-    }, 50);
+function updateCardFace() {
+    document.querySelector('.card-front').hidden = isFlipped;
+    document.querySelector('.card-back').hidden = !isFlipped;
+    const button = document.getElementById('flipBtn');
+    button.textContent = isFlipped ? 'Revoir la question' : 'Afficher la réponse';
+    button.setAttribute('aria-expanded', String(isFlipped));
+    document.getElementById('navButtons').style.display = isFlipped ? 'none' : 'flex';
+    document.getElementById('srsSection').style.display = isFlipped ? 'block' : 'none';
 }
 
 function flipCard() {
     isFlipped = !isFlipped;
-    document.getElementById('cardFlipper').classList.toggle('flipped', isFlipped);
-
-    if (isFlipped) {
-        document.getElementById('navButtons').style.display = 'none';
-        document.getElementById('srsSection').style.display = 'block';
-    } else {
-        document.getElementById('navButtons').style.display = 'flex';
-        document.getElementById('srsSection').style.display = 'none';
-    }
+    updateCardFace();
 }
 
 function prevQuestion() {
@@ -2457,6 +2495,7 @@ function onReview(quality) {
         currentIndex = 0;
     }
     renderCard();
+    document.getElementById('flipBtn').focus();
 }
 
 // ===== FORMATAGE TEXTE =====
@@ -2520,7 +2559,10 @@ function processSubscripts(element) {
         if (node.parentElement && node.parentElement.closest('.katex')) return;
 
         let text = node.textContent;
-        let result = text;
+        let result = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+        // A terminal atom count is distinct from ionic charge.
+        result = result.replace(/\b(HCO3|NO3|NO2|MnO4|ClO4|ClO3|ClO2|NH4)([+\-])/g, (m, formula, sign) => formula.replace(/(\d+)/g, '<sub>$1</sub>') + '<sup>' + sign + '</sup>');
 
         // ===== pKA, pKA1, pKA2 =====
         result = result.replace(/pKA(\d*)/g, (m, num) => 'pK<sub>A' + num + '</sub>');
@@ -2573,7 +2615,7 @@ function processSubscripts(element) {
         result = result.replace(/(?<![a-zA-Z])([vpMaTF])([AB])(?=[^a-z]|$)/g, (m, variable, letter) => variable + '<sub>' + letter + '</sub>');
 
         // ===== NA (Avogadro), nA, nB =====
-        result = result.replace(/(?<![a-zA-Z])N([A-Z])(?=[^a-z]|$)/g, (m, letter) => 'N<sub>' + letter + '</sub>');
+        result = result.replace(/(?<![a-zA-Z])N(A)(?=[^a-z<]|$)/g, (m, letter) => 'N<sub>' + letter + '</sub>');
         result = result.replace(/(?<![a-zA-Z])n([A-Z])(?=[^a-z]|$)/g, (m, letter) => 'n<sub>' + letter + '</sub>');
 
         // ===== fe, fr (fréquence émise/reçue) =====
@@ -2672,19 +2714,36 @@ let isDragging = false;
 let dragStartX = 0;
 let dragStartY = 0;
 
-function openZoom(src) {
+let zoomTrigger = null;
+function openZoom(src, description) {
     const overlay = document.getElementById('zoomOverlay');
     const img = document.getElementById('zoomImg');
+    zoomTrigger = document.activeElement;
     img.src = src;
+    img.alt = description;
+    overlay.hidden = false;
+    document.querySelectorAll('.screen, .header').forEach(e => { e.inert = true; });
     zoomScale = 1;
     zoomTranslateX = 0;
     zoomTranslateY = 0;
     updateZoomTransform();
     overlay.classList.add('active');
+    document.getElementById('zoomClose').focus();
 }
 
 function closeZoom() {
-    document.getElementById('zoomOverlay').classList.remove('active');
+    const overlay = document.getElementById('zoomOverlay');
+    if (overlay.hidden) return;
+    overlay.classList.remove('active');
+    overlay.hidden = true;
+    document.querySelectorAll('.screen, .header').forEach(e => { e.inert = false; });
+    zoomTrigger?.focus();
+}
+
+function adjustZoom(delta, reset = false) {
+    zoomScale = reset ? 1 : Math.min(5, Math.max(1, zoomScale + delta));
+    if (zoomScale === 1) { zoomTranslateX = 0; zoomTranslateY = 0; }
+    updateZoomTransform();
 }
 
 function updateZoomTransform() {
@@ -2794,13 +2853,23 @@ document.getElementById('zoomContainer').addEventListener('touchend', function()
     lastTouchDist = 0;
 });
 
-// Échap pour fermer le zoom
+// Native buttons handle Enter and Space once, without a global flip handler.
 document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') closeZoom();
+    const overlay = document.getElementById('zoomOverlay');
+    if (!overlay.hidden) {
+        if (e.key === 'Escape') { e.preventDefault(); closeZoom(); return; }
+        if (e.key === 'Tab') {
+            const buttons = Array.from(overlay.querySelectorAll('button'));
+            const first = buttons[0], last = buttons[buttons.length - 1];
+            if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+        return;
+    }
+    if (e.target.closest('button, input, textarea, select, summary, a, [contenteditable]')) return;
     if (document.getElementById('flashcardScreen').classList.contains('active')) {
-        if (e.key === 'ArrowLeft') prevQuestion();
-        if (e.key === 'ArrowRight') nextQuestion();
-        if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipCard(); }
+        if (e.key === 'ArrowLeft') { e.preventDefault(); prevQuestion(); }
+        if (e.key === 'ArrowRight') { e.preventDefault(); nextQuestion(); }
     }
 });
 

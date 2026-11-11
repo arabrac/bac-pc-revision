@@ -1,7 +1,7 @@
 {
   "appInfo": {
     "name": "Bac PC - Révision Cours",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "totalQuestions": 139,
     "totalChapters": 10
   },
@@ -28,7 +28,7 @@
     },
     {
       "name": "6. Ondes et optique",
-      "questionCount": 15
+      "questionCount": 14
     },
     {
       "name": "7. Thermodynamique",
@@ -189,8 +189,8 @@
       "theme": "10. Mécanique",
       "question": "Forces sur un objet flottant en équilibre ? Expressions ?",
       "question_latex": "Forces sur un objet flottant en équilibre ? Expressions ?",
-      "answer": "Poids vec(P) = mvec(g)\nPoussée d'Archimède vec(P)_A = ρfluide.Vimmergé.vec(g)\nÉquilibre : vec(P) = vec(-P)_A",
-      "answer_latex": "Poids $\\vec{P}$ = m$\\vec{g}$\nPoussée d'Archimède $\\vec{P}_{A}$ = $\\rho_{\\text{fluide}}$ . $V_{\\text{immergé}}$ . $\\vec{g}$\nÉquilibre : $\\vec{P}$ = $-\\vec{P}_{A}$",
+      "answer": "Poids : vec(P) = m vec(g).\nPoussée d’Archimède : vec(P)_A = −ρfluide Vimmergé vec(g), à l’opposé du champ de pesanteur.\nÀ l’équilibre : vec(P) + vec(P)_A = vec(0).",
+      "answer_latex": "Poids : $\\vec{P} = m\\vec{g}$.\nPoussée d’Archimède : $\\vec{P}_{A} = -\\rho_{\\text{fluide}} V_{\\text{immergé}}\\vec{g}$, à l’opposé du champ de pesanteur.\nÀ l’équilibre : $\\vec{P} + \\vec{P}_{A} = \\vec{0}$.",
       "schema_present": true,
       "schema_files": [
         "image15.png"
@@ -440,8 +440,8 @@
       "theme": "1. Acide-Base",
       "question": "Définir un ampholyte.",
       "question_latex": "Définir un ampholyte.",
-      "answer": "Espèce chimique capable de se comporter à la fois comme un acide et comme une base.\nHCO3- :\nacide H2CO3/HCO3- → H2CO3 = HCO3- + H+ ;\nbase HCO3-/CO32- → HCO3- = CO32- + H+.\nH2O :\nacide H3O+/H2O → H3O+ = H2O + H+ ;\nbase H2O/HO- → H2O = HO- + H+.",
-      "answer_latex": "Espèce chimique capable de se comporter à la fois comme un acide et comme une base.\nHCO3- :\nacide H2CO3/HCO3- → H2CO3 = HCO3- + H+ ;\nbase HCO3-/CO32- → HCO3- = CO32- + H+.\nH2O :\nacide H3O+/H2O → H3O+ = H2O + H+ ;\nbase H2O/HO- → H2O = HO- + H+.",
+      "answer": "Espèce chimique capable de céder ou de capter un proton H⁺.\nHCO₃⁻ est la base du couple H₂CO₃/HCO₃⁻ et l’acide du couple HCO₃⁻/CO₃²⁻.\nComme base : HCO₃⁻ + H⁺ ⇌ H₂CO₃.\nComme acide : HCO₃⁻ ⇌ CO₃²⁻ + H⁺.\nH₂O est la base du couple H₃O⁺/H₂O et l’acide du couple H₂O/HO⁻.\nComme base : H₂O + H⁺ ⇌ H₃O⁺.\nComme acide : H₂O ⇌ HO⁻ + H⁺.\nCes écritures formelles illustrent les couples ; en solution aqueuse, un proton est transféré entre un acide et une base.",
+      "answer_latex": "Espèce chimique capable de céder ou de capter un proton H⁺.\nHCO₃⁻ est la base du couple H₂CO₃/HCO₃⁻ et l’acide du couple HCO₃⁻/CO₃²⁻.\nComme base : HCO₃⁻ + H⁺ ⇌ H₂CO₃.\nComme acide : HCO₃⁻ ⇌ CO₃²⁻ + H⁺.\nH₂O est la base du couple H₃O⁺/H₂O et l’acide du couple H₂O/HO⁻.\nComme base : H₂O + H⁺ ⇌ H₃O⁺.\nComme acide : H₂O ⇌ HO⁻ + H⁺.\nCes écritures formelles illustrent les couples ; en solution aqueuse, un proton est transféré entre un acide et une base.",
       "schema_present": false,
       "schema_files": []
     },
